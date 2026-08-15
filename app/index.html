@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>dMAT Prep App</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <div>
+        <h1>dMAT Prep</h1>
+        <p class="sub">Dark practice UI + light Exam Mock (test-centre style). Original items — not past papers.</p>
+      </div>
+      <div style="text-align:right">
+        <p class="note" id="bankCount">Loading bank…</p>
+        <button type="button" id="themeBtn" style="margin-top:0.4rem">Theme: Dark</button>
+      </div>
+    </header>
+
+    <section id="hubView">
+      <div class="grid-2">
+        <div class="panel">
+          <label for="typeSelect">Question type</label>
+          <select id="typeSelect">
+            <option value="me">Mathematical Equations</option>
+            <option value="ls">Latin Squares</option>
+            <option value="fs">Figure Sequences</option>
+            <option value="gam">General Academic Module</option>
+            <option value="mixed">Mixed</option>
+          </select>
+
+          <label for="diffSelect">Difficulty</label>
+          <select id="diffSelect">
+            <option value="all">All</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+
+          <label for="modeSelect">Mode</label>
+          <select id="modeSelect">
+            <option value="quick">Quick practice (10 items, check as you go)</option>
+            <option value="exam">Exam-style set (no instant check)</option>
+            <option value="timed">Timed mock (25 min / 20 items; GAM 90 min)</option>
+          </select>
+
+          <div class="controls">
+            <button class="primary" id="startBtn" type="button">Start practice</button>
+            <button id="examMockBtn" type="button">Start Exam Mock</button>
+            <button id="learnBtn" type="button">Learn codes</button>
+            <button id="aboutBtn" type="button">About dMAT</button>
+            <button id="reviewBtn" type="button">Review flagged / wrong</button>
+            <button class="danger" id="resetBtn" type="button">Reset progress</button>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2 style="margin-top:0;font-size:1.1rem">Progress</h2>
+          <div class="stats" id="stats"></div>
+          <h3 class="panel-sub">By type</h3>
+          <div id="typeStats" class="type-stats"></div>
+          <h3 class="panel-sub">Last sessions</h3>
+          <div id="sessionList" class="session-list note">No sessions yet.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="learnView" class="hidden"></section>
+    <section id="aboutView" class="hidden"></section>
+
+    <section id="quizView" class="panel hidden">
+      <div class="quiz-top">
+        <div id="qMeta"></div>
+        <div class="timer" id="timer">Untimed</div>
+      </div>
+      <div id="stem"></div>
+      <p class="prompt" id="prompt"></p>
+      <div id="widgetMount"></div>
+      <div class="options" id="options"></div>
+      <div id="feedback" class="feedback hidden"></div>
+      <div class="scratch-wrap" id="scratchWrap">
+        <h3>Scratch pad <span class="note">(practice only — disabled in Exam Mock / real dMAT)</span></h3>
+        <textarea id="scratchPad" placeholder="A=3  B=6  row2 missing C…"></textarea>
+        <button type="button" id="scratchClear">Clear pad</button>
+      </div>
+      <div class="nav-row">
+        <div class="controls">
+          <button id="flagBtn" type="button">Flag</button>
+          <button id="checkBtn" type="button">Check</button>
+          <button id="revealBtn" type="button" class="hidden">Reveal solution</button>
+        </div>
+        <div class="controls">
+          <button id="quitBtn" type="button">End session</button>
+          <button class="primary" id="nextBtn" type="button">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="resultView" class="panel hidden">
+      <h2 style="margin-top:0">Session result</h2>
+      <div id="resultBody"></div>
+      <div class="controls" style="margin-top:1rem">
+        <button class="primary" id="backHub" type="button">Back to hub</button>
+      </div>
+    </section>
+
+    <section id="examRoot" class="hidden"></section>
+
+    <footer>
+      Practice is original. Exam Mock approximates digital flow — watch official videos at d-mat.de before test day.
+    </footer>
+  </div>
+  <script type="module" src="./js/quiz.js"></script>
+</body>
+</html>

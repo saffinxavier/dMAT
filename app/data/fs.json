@@ -1,0 +1,10001 @@
+[
+  {
+    "id": "fs-l01",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Blue square moves one cell right each step (row 1).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l02",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 0,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 0,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Red circle moves one cell down each step (column 1).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l03",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Square stays at centre; colour alternates blue \u2192 green.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l04",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 0,
+              "colour": "navy",
+              "rot": 180
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Triangle at (0,0) rotates 90\u00b0 clockwise each step.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l05",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Green square moves on the diagonal and bounces: 0,0 \u2192 1,1 \u2192 2,2 \u2192 1,1 \u2192 0,0 \u2192 1,1.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l06",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 1,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 2,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Orange circle moves left one cell; after col 0 it reappears at col 2.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l07",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Teal square moves up one; wraps from row 0 to row 2.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l08",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Centre square cycles blue \u2192 red \u2192 yellow \u2192 blue.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l09",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Yellow square moves right one on row 0 (wrap).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l10",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 0,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Purple circle moves up on column 0 (wrap).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l11",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Grey square stays put; colour cycles red \u2192 teal \u2192 red.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l12",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 90
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Triangle at centre rotates 90\u00b0 CCW each step.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l13",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Green square moves down-left on anti-diagonal bounce.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l14",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Blue circle moves right on row 2 (wrap).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l15",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Orange square moves left on row 1 (wrap).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-l16",
+    "type": "fs",
+    "difficulty": "low",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Centre square cycles yellow \u2192 purple \u2192 gray \u2192 yellow.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m01",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Moves right one and colour flips blue/green each step.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m02",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 0,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 0,
+              "colour": "navy",
+              "rot": 90
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 2,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Moves down and rotates +90\u00b0 each step.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m03",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Step size grows then bounce: positions 0\u21921\u21920\u21922\u21920\u21921 on row 1.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m04",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 2,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 2,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Two independent figures: blue right, red left.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m05",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Diagonal move + colour blue\u2192orange alternate.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m06",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 0,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Slide along border: top row then down the right edge.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m07",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 0,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 90
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 2,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Rotation 90\u00b0 and move right one.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m08",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Bounce at right edge: right, right, left, left.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m09",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Moves down one; colour flips yellow/teal.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m10",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 1,
+              "colour": "navy",
+              "rot": 90
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Moves left one and rotates +90\u00b0.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m11",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 0,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Border walk clockwise one cell.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m12",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 0,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "orange",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 0,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 0,
+              "c": 0,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Two figures: green down, orange up (same column).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m13",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "gray",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "gray",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Diagonal bounce + alternate purple/gray.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m14",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Move right with growing then shrinking steps on row 0: 0\u21921\u21920\u21922\u21920\u21921.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m15",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Slide bottom edge left then up the left border.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-m16",
+    "type": "fs",
+    "difficulty": "medium",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 2,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 2,
+              "colour": "navy",
+              "rot": 90
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 2,
+              "c": 2,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Rotate 90\u00b0 CW while moving down (wrap).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h01",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "x+1 steps right with bounce; colour cycles blue/red.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h02",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 180
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 270
+          },
+          {
+            "shape": "circle",
+            "r": 2,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 0,
+              "c": 0,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 90
+            },
+            {
+              "shape": "circle",
+              "r": 0,
+              "c": 0,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 0,
+              "c": 2,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Two figures: square rotates in place; circle orbits clockwise on corners.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h03",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Slide on border clockwise one cell each step.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h04",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Move down-right with growing step then colour flip.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h05",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 1,
+              "colour": "navy",
+              "rot": 270
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Triangle rotates \u221290\u00b0 (CCW) while moving left.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 1,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h06",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Independent: blue down, green right, both wrap.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h07",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 0,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Bounce horizontal + alternate yellow/teal.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h08",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Clockwise border walk two cells each step.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h09",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "x+1 down with bounce on col 2; colour blue/orange.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h10",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 1,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "circle",
+              "r": 0,
+              "c": 0,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Square orbits anti-clockwise on corners; centre circle flips colour.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 1,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "circle",
+            "r": 0,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h11",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 0,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "yellow",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "purple",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "gray",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Border slide CCW one cell + colour cycle yellow\u2192purple\u2192gray.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 2,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "yellow",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "purple",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "gray",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h12",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 0,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 2,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 2,
+              "c": 1,
+              "colour": "navy",
+              "rot": 90
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 2,
+              "c": 2,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Triangle moves right (wrap) and rotates +90\u00b0; colour stays navy.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 1,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h13",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 1,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "red",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Two movers: blue right on top, red left on bottom (wrap).",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 0,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 1,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "red",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h14",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "teal",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 1,
+              "colour": "orange",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Diagonal bounce with step growth then colour teal/orange.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "teal",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 1,
+            "colour": "orange",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h15",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 2,
+            "colour": "navy",
+            "rot": 180
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 2,
+            "c": 0,
+            "colour": "navy",
+            "rot": 270
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 0,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 0,
+              "colour": "navy",
+              "rot": 90
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 1,
+              "c": 1,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "triangle",
+              "r": 0,
+              "c": 2,
+              "colour": "navy",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "Clockwise corner hop + in-place 90\u00b0 spin.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 0,
+            "colour": "navy",
+            "rot": 90
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 1,
+            "c": 1,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "triangle",
+            "r": 0,
+            "c": 2,
+            "colour": "navy",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fs-h16",
+    "type": "fs",
+    "difficulty": "high",
+    "prompt": "Which matrices continue the series?",
+    "series": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ],
+    "options": [
+      {
+        "id": "a",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "b",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 0,
+              "c": 0,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "c",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 1,
+              "c": 1,
+              "colour": "green",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            }
+          ]
+        }
+      },
+      {
+        "id": "d",
+        "frame": {
+          "figures": [
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "blue",
+              "rot": 0
+            },
+            {
+              "shape": "square",
+              "r": 2,
+              "c": 2,
+              "colour": "green",
+              "rot": 0
+            }
+          ]
+        }
+      }
+    ],
+    "answer": "a",
+    "explanation": "NO-GHOST dual: blue down-right diagonal bounce, green stays opposite corner then swaps.",
+    "answerFrames": {
+      "fifth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      "sixth": {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    },
+    "optionFrames": [
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 0,
+            "c": 0,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 1,
+            "c": 1,
+            "colour": "green",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          }
+        ]
+      },
+      {
+        "figures": [
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "blue",
+            "rot": 0
+          },
+          {
+            "shape": "square",
+            "r": 2,
+            "c": 2,
+            "colour": "green",
+            "rot": 0
+          }
+        ]
+      }
+    ]
+  }
+]

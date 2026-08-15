@@ -1,0 +1,1162 @@
+[
+  {
+    "id": "gam-01-q1",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-01",
+    "scenarioTitle": "Campus water pump",
+    "scenario": "A university facilities team is choosing a temporary water pump for a construction site 12 m below the campus water tank outlet. The pump's maximum suction lift is rated at 8 m at sea level. The site altitude is 900 m, where the effective suction lift drops by about 1 m per 1000 m of altitude. The discharge pipe length is 40 m with a required flow of 2.5 L/s. Only pumps that can meet suction lift and flow are allowed. Three candidate pumps:\n\n- Pump X: suction lift 9 m (sea level), flow 3.0 L/s\n- Pump Y: suction lift 7 m (sea level), flow 2.8 L/s\n- Pump Z: suction lift 10 m (sea level), flow 2.2 L/s",
+    "prompt": "What is the approximate effective maximum suction lift of Pump X at the site altitude?",
+    "options": [
+      {
+        "id": "a",
+        "text": "9.0 m"
+      },
+      {
+        "id": "b",
+        "text": "8.1 m"
+      },
+      {
+        "id": "c",
+        "text": "7.0 m"
+      },
+      {
+        "id": "d",
+        "text": "10.0 m"
+      }
+    ],
+    "answer": "b",
+    "explanation": "900 m altitude \u2248 0.9 m loss. Pump X: 9 \u2212 0.9 = 8.1 m."
+  },
+  {
+    "id": "gam-01-q2",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-01",
+    "scenarioTitle": "Campus water pump",
+    "scenario": "A university facilities team is choosing a temporary water pump for a construction site 12 m below the campus water tank outlet. The pump's maximum suction lift is rated at 8 m at sea level. The site altitude is 900 m, where the effective suction lift drops by about 1 m per 1000 m of altitude. The discharge pipe length is 40 m with a required flow of 2.5 L/s. Only pumps that can meet suction lift and flow are allowed. Three candidate pumps:\n\n- Pump X: suction lift 9 m (sea level), flow 3.0 L/s\n- Pump Y: suction lift 7 m (sea level), flow 2.8 L/s\n- Pump Z: suction lift 10 m (sea level), flow 2.2 L/s",
+    "prompt": "The vertical distance from tank outlet to pump inlet is 12 m. Which statement follows?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Any of X, Y, Z can provide the needed suction lift at this site."
+      },
+      {
+        "id": "b",
+        "text": "No listed pump can provide 12 m suction lift; a different setup is required."
+      },
+      {
+        "id": "c",
+        "text": "Only Pump Z works because its sea-level rating exceeds 12 m."
+      },
+      {
+        "id": "d",
+        "text": "Pump Y works if flow is ignored."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Even Z\u2019s effective lift is about 10 \u2212 0.9 = 9.1 m < 12 m."
+  },
+  {
+    "id": "gam-01-q3",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-01",
+    "scenarioTitle": "Campus water pump",
+    "scenario": "A university facilities team is choosing a temporary water pump for a construction site 12 m below the campus water tank outlet. The pump's maximum suction lift is rated at 8 m at sea level. The site altitude is 900 m, where the effective suction lift drops by about 1 m per 1000 m of altitude. The discharge pipe length is 40 m with a required flow of 2.5 L/s. Only pumps that can meet suction lift and flow are allowed. Three candidate pumps:\n\n- Pump X: suction lift 9 m (sea level), flow 3.0 L/s\n- Pump Y: suction lift 7 m (sea level), flow 2.8 L/s\n- Pump Z: suction lift 10 m (sea level), flow 2.2 L/s",
+    "prompt": "Ignoring suction for a moment, which pumps meet the required flow of 2.5 L/s?",
+    "options": [
+      {
+        "id": "a",
+        "text": "X and Y only"
+      },
+      {
+        "id": "b",
+        "text": "X and Z only"
+      },
+      {
+        "id": "c",
+        "text": "Y and Z only"
+      },
+      {
+        "id": "d",
+        "text": "All three"
+      }
+    ],
+    "answer": "a",
+    "explanation": "X=3.0 and Y=2.8 meet \u22652.5; Z=2.2 does not."
+  },
+  {
+    "id": "gam-01-q4",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-01",
+    "scenarioTitle": "Campus water pump",
+    "scenario": "A university facilities team is choosing a temporary water pump for a construction site 12 m below the campus water tank outlet. The pump's maximum suction lift is rated at 8 m at sea level. The site altitude is 900 m, where the effective suction lift drops by about 1 m per 1000 m of altitude. The discharge pipe length is 40 m with a required flow of 2.5 L/s. Only pumps that can meet suction lift and flow are allowed. Three candidate pumps:\n\n- Pump X: suction lift 9 m (sea level), flow 3.0 L/s\n- Pump Y: suction lift 7 m (sea level), flow 2.8 L/s\n- Pump Z: suction lift 10 m (sea level), flow 2.2 L/s",
+    "prompt": "Which quantity is NOT constrained by the selection rules stated in the scenario?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Suction lift capability"
+      },
+      {
+        "id": "b",
+        "text": "Flow rate"
+      },
+      {
+        "id": "c",
+        "text": "Discharge pipe length of 40 m as a hard pass/fail limit"
+      },
+      {
+        "id": "d",
+        "text": "Whether the pump can meet stated suction and flow"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Pipe length is context; pass/fail rules named are suction lift and flow only."
+  },
+  {
+    "id": "gam-01-q5",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-01",
+    "scenarioTitle": "Campus water pump",
+    "scenario": "A university facilities team is choosing a temporary water pump for a construction site 12 m below the campus water tank outlet. The pump's maximum suction lift is rated at 8 m at sea level. The site altitude is 900 m, where the effective suction lift drops by about 1 m per 1000 m of altitude. The discharge pipe length is 40 m with a required flow of 2.5 L/s. Only pumps that can meet suction lift and flow are allowed. Three candidate pumps:\n\n- Pump X: suction lift 9 m (sea level), flow 3.0 L/s\n- Pump Y: suction lift 7 m (sea level), flow 2.8 L/s\n- Pump Z: suction lift 10 m (sea level), flow 2.2 L/s",
+    "prompt": "A colleague claims Pump Y is usable at this site after altitude correction. The claim is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "True, because 7 m > 0.9 m loss."
+      },
+      {
+        "id": "b",
+        "text": "False for suction: effective lift \u2248 6.1 m, still far below 12 m needed."
+      },
+      {
+        "id": "c",
+        "text": "True, because Y meets flow."
+      },
+      {
+        "id": "d",
+        "text": "True if the tank is pressurized."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Effective Y \u2248 7 \u2212 0.9 = 6.1 m \u226a 12 m."
+  },
+  {
+    "id": "gam-02-q1",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-02",
+    "scenarioTitle": "Course survey response rates",
+    "scenario": "A department surveyed 200 master's applicants about preferred start terms. 120 preferred winter, 50 preferred summer, and 30 marked undecided. Among winter preferrers, 40% also applied for a scholarship. Among summer preferrers, 20% applied for a scholarship. Undecided applicants are excluded from scholarship percentages in the report.",
+    "prompt": "How many surveyed applicants preferred winter?",
+    "options": [
+      {
+        "id": "a",
+        "text": "50"
+      },
+      {
+        "id": "b",
+        "text": "120"
+      },
+      {
+        "id": "c",
+        "text": "30"
+      },
+      {
+        "id": "d",
+        "text": "200"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Stated directly: 120 preferred winter."
+  },
+  {
+    "id": "gam-02-q2",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-02",
+    "scenarioTitle": "Course survey response rates",
+    "scenario": "A department surveyed 200 master's applicants about preferred start terms. 120 preferred winter, 50 preferred summer, and 30 marked undecided. Among winter preferrers, 40% also applied for a scholarship. Among summer preferrers, 20% applied for a scholarship. Undecided applicants are excluded from scholarship percentages in the report.",
+    "prompt": "How many winter preferrers applied for a scholarship?",
+    "options": [
+      {
+        "id": "a",
+        "text": "40"
+      },
+      {
+        "id": "b",
+        "text": "48"
+      },
+      {
+        "id": "c",
+        "text": "60"
+      },
+      {
+        "id": "d",
+        "text": "80"
+      }
+    ],
+    "answer": "b",
+    "explanation": "40% of 120 = 48."
+  },
+  {
+    "id": "gam-02-q3",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-02",
+    "scenarioTitle": "Course survey response rates",
+    "scenario": "A department surveyed 200 master's applicants about preferred start terms. 120 preferred winter, 50 preferred summer, and 30 marked undecided. Among winter preferrers, 40% also applied for a scholarship. Among summer preferrers, 20% applied for a scholarship. Undecided applicants are excluded from scholarship percentages in the report.",
+    "prompt": "Total scholarship applicants among winter + summer preferrers?",
+    "options": [
+      {
+        "id": "a",
+        "text": "58"
+      },
+      {
+        "id": "b",
+        "text": "48"
+      },
+      {
+        "id": "c",
+        "text": "10"
+      },
+      {
+        "id": "d",
+        "text": "70"
+      }
+    ],
+    "answer": "a",
+    "explanation": "48 + 10 = 58."
+  },
+  {
+    "id": "gam-02-q4",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-02",
+    "scenarioTitle": "Course survey response rates",
+    "scenario": "A department surveyed 200 master's applicants about preferred start terms. 120 preferred winter, 50 preferred summer, and 30 marked undecided. Among winter preferrers, 40% also applied for a scholarship. Among summer preferrers, 20% applied for a scholarship. Undecided applicants are excluded from scholarship percentages in the report.",
+    "prompt": "What fraction of all 200 applicants preferred summer?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1/4"
+      },
+      {
+        "id": "b",
+        "text": "1/5"
+      },
+      {
+        "id": "c",
+        "text": "3/10"
+      },
+      {
+        "id": "d",
+        "text": "1/2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "50/200 = 1/4."
+  },
+  {
+    "id": "gam-02-q5",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-02",
+    "scenarioTitle": "Course survey response rates",
+    "scenario": "A department surveyed 200 master's applicants about preferred start terms. 120 preferred winter, 50 preferred summer, and 30 marked undecided. Among winter preferrers, 40% also applied for a scholarship. Among summer preferrers, 20% applied for a scholarship. Undecided applicants are excluded from scholarship percentages in the report.",
+    "prompt": "Which inference is NOT supported?",
+    "options": [
+      {
+        "id": "a",
+        "text": "More applicants preferred winter than summer."
+      },
+      {
+        "id": "b",
+        "text": "Exactly 15 undecided applicants applied for scholarships."
+      },
+      {
+        "id": "c",
+        "text": "Undecided responses are 15% of the sample."
+      },
+      {
+        "id": "d",
+        "text": "Scholarship rate is higher among winter preferrers than summer preferrers."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Undecided scholarship counts are excluded; 15 is not given."
+  },
+  {
+    "id": "gam-03-q1",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-03",
+    "scenarioTitle": "Lab reagent shelf life",
+    "scenario": "A lab stores reagent R at 4\u00b0C. Shelf life is 90 days unopened, or 14 days after opening. A bottle opened on 1 March is discarded on 15 March if unused. Unopened bottles purchased on 1 January expire on 1 April. The lab must keep at least 2 unexpired unopened bottles as backup whenever an opened bottle is in use.",
+    "prompt": "An unopened bottle purchased on 1 January expires on:",
+    "options": [
+      {
+        "id": "a",
+        "text": "15 January"
+      },
+      {
+        "id": "b",
+        "text": "1 April"
+      },
+      {
+        "id": "c",
+        "text": "1 March"
+      },
+      {
+        "id": "d",
+        "text": "14 February"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Purchased 1 Jan \u2192 expires 1 April."
+  },
+  {
+    "id": "gam-03-q2",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-03",
+    "scenarioTitle": "Lab reagent shelf life",
+    "scenario": "A lab stores reagent R at 4\u00b0C. Shelf life is 90 days unopened, or 14 days after opening. A bottle opened on 1 March is discarded on 15 March if unused. Unopened bottles purchased on 1 January expire on 1 April. The lab must keep at least 2 unexpired unopened bottles as backup whenever an opened bottle is in use.",
+    "prompt": "Maximum days an opened bottle may be kept:",
+    "options": [
+      {
+        "id": "a",
+        "text": "7"
+      },
+      {
+        "id": "b",
+        "text": "14"
+      },
+      {
+        "id": "c",
+        "text": "90"
+      },
+      {
+        "id": "d",
+        "text": "30"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Opened shelf life is 14 days."
+  },
+  {
+    "id": "gam-03-q3",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-03",
+    "scenarioTitle": "Lab reagent shelf life",
+    "scenario": "A lab stores reagent R at 4\u00b0C. Shelf life is 90 days unopened, or 14 days after opening. A bottle opened on 1 March is discarded on 15 March if unused. Unopened bottles purchased on 1 January expire on 1 April. The lab must keep at least 2 unexpired unopened bottles as backup whenever an opened bottle is in use.",
+    "prompt": "While one opened bottle is in use, the minimum number of unexpired unopened backup bottles required is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "0"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "2"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Policy: at least 2 backups."
+  },
+  {
+    "id": "gam-03-q4",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-03",
+    "scenarioTitle": "Lab reagent shelf life",
+    "scenario": "A lab stores reagent R at 4\u00b0C. Shelf life is 90 days unopened, or 14 days after opening. A bottle opened on 1 March is discarded on 15 March if unused. Unopened bottles purchased on 1 January expire on 1 April. The lab must keep at least 2 unexpired unopened bottles as backup whenever an opened bottle is in use.",
+    "prompt": "On 20 March, one bottle is open (opened 10 March) and the lab holds two unopened bottles purchased 1 January. Compliant?",
+    "options": [
+      {
+        "id": "a",
+        "text": "No \u2014 unopened bottles from 1 January are already expired."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 an opened bottle cannot be kept past 7 days."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 opened bottle and both backups are still within stated limits on 20 March."
+      },
+      {
+        "id": "d",
+        "text": "No \u2014 only one backup is allowed while a bottle is open."
+      }
+    ],
+    "answer": "c",
+    "explanation": "Opened 10 Mar OK until 24 Mar; unopened valid until 1 Apr; two backups OK."
+  },
+  {
+    "id": "gam-03-q5",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-03",
+    "scenarioTitle": "Lab reagent shelf life",
+    "scenario": "A lab stores reagent R at 4\u00b0C. Shelf life is 90 days unopened, or 14 days after opening. A bottle opened on 1 March is discarded on 15 March if unused. Unopened bottles purchased on 1 January expire on 1 April. The lab must keep at least 2 unexpired unopened bottles as backup whenever an opened bottle is in use.",
+    "prompt": "Which change would violate a stated rule if an opened bottle remains in use?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Holding only one unexpired unopened backup bottle"
+      },
+      {
+        "id": "b",
+        "text": "Storing reagent at 4\u00b0C"
+      },
+      {
+        "id": "c",
+        "text": "Discarding an opened bottle on day 14"
+      },
+      {
+        "id": "d",
+        "text": "Buying a new unopened bottle on 1 February"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Fewer than 2 backups violates the backup rule."
+  },
+  {
+    "id": "gam-04-q1",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-04",
+    "scenarioTitle": "Shared compute budget",
+    "scenario": "A research group has a monthly cloud budget of \u20ac600. GPU instances cost \u20ac4/hour; CPU instances cost \u20ac1/hour. They must reserve at least 40 GPU-hours for training. Remaining budget may buy any mix of GPU or CPU hours. Idle reserved GPU-hours are still charged.",
+    "prompt": "Minimum spend required for the 40 GPU-hour reservation?",
+    "options": [
+      {
+        "id": "a",
+        "text": "\u20ac40"
+      },
+      {
+        "id": "b",
+        "text": "\u20ac160"
+      },
+      {
+        "id": "c",
+        "text": "\u20ac240"
+      },
+      {
+        "id": "d",
+        "text": "\u20ac600"
+      }
+    ],
+    "answer": "b",
+    "explanation": "40 \u00d7 \u20ac4 = \u20ac160."
+  },
+  {
+    "id": "gam-04-q2",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-04",
+    "scenarioTitle": "Shared compute budget",
+    "scenario": "A research group has a monthly cloud budget of \u20ac600. GPU instances cost \u20ac4/hour; CPU instances cost \u20ac1/hour. They must reserve at least 40 GPU-hours for training. Remaining budget may buy any mix of GPU or CPU hours. Idle reserved GPU-hours are still charged.",
+    "prompt": "After paying for 40 GPU-hours, how much budget remains?",
+    "options": [
+      {
+        "id": "a",
+        "text": "\u20ac440"
+      },
+      {
+        "id": "b",
+        "text": "\u20ac560"
+      },
+      {
+        "id": "c",
+        "text": "\u20ac400"
+      },
+      {
+        "id": "d",
+        "text": "\u20ac160"
+      }
+    ],
+    "answer": "a",
+    "explanation": "600 \u2212 160 = 440."
+  },
+  {
+    "id": "gam-04-q3",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-04",
+    "scenarioTitle": "Shared compute budget",
+    "scenario": "A research group has a monthly cloud budget of \u20ac600. GPU instances cost \u20ac4/hour; CPU instances cost \u20ac1/hour. They must reserve at least 40 GPU-hours for training. Remaining budget may buy any mix of GPU or CPU hours. Idle reserved GPU-hours are still charged.",
+    "prompt": "With remaining \u20ac440 after the minimum GPU reservation, maximum additional GPU-hours purchasable (integer hours)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "110"
+      },
+      {
+        "id": "b",
+        "text": "100"
+      },
+      {
+        "id": "c",
+        "text": "440"
+      },
+      {
+        "id": "d",
+        "text": "40"
+      }
+    ],
+    "answer": "a",
+    "explanation": "440 / 4 = 110."
+  },
+  {
+    "id": "gam-04-q4",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-04",
+    "scenarioTitle": "Shared compute budget",
+    "scenario": "A research group has a monthly cloud budget of \u20ac600. GPU instances cost \u20ac4/hour; CPU instances cost \u20ac1/hour. They must reserve at least 40 GPU-hours for training. Remaining budget may buy any mix of GPU or CPU hours. Idle reserved GPU-hours are still charged.",
+    "prompt": "If they buy only CPU hours with the remaining \u20ac440, how many CPU-hours can they buy?",
+    "options": [
+      {
+        "id": "a",
+        "text": "110"
+      },
+      {
+        "id": "b",
+        "text": "440"
+      },
+      {
+        "id": "c",
+        "text": "160"
+      },
+      {
+        "id": "d",
+        "text": "600"
+      }
+    ],
+    "answer": "b",
+    "explanation": "\u20ac1/hour \u2192 440 hours."
+  },
+  {
+    "id": "gam-04-q5",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-04",
+    "scenarioTitle": "Shared compute budget",
+    "scenario": "A research group has a monthly cloud budget of \u20ac600. GPU instances cost \u20ac4/hour; CPU instances cost \u20ac1/hour. They must reserve at least 40 GPU-hours for training. Remaining budget may buy any mix of GPU or CPU hours. Idle reserved GPU-hours are still charged.",
+    "prompt": "Which statement is true?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Unused reserved GPU-hours are free."
+      },
+      {
+        "id": "b",
+        "text": "Unused reserved GPU-hours are still charged."
+      },
+      {
+        "id": "c",
+        "text": "CPU hours cost more than GPU hours."
+      },
+      {
+        "id": "d",
+        "text": "The budget forbids CPU hours."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Scenario states idle reserved GPU-hours are still charged."
+  },
+  {
+    "id": "gam-05-q1",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-05",
+    "scenarioTitle": "Study room booking",
+    "scenario": "A campus library books study rooms in 60-minute slots from 09:00 to 21:00. Each room holds at most 6 people. Groups of 5 or more must book a Large room; groups of 4 or fewer may use Small or Large. Same-day bookings close at 08:00. Cancelled bookings free the slot immediately. Today is Monday; the desk opens at 08:30.",
+    "prompt": "How long is each booking slot?",
+    "options": [
+      {
+        "id": "a",
+        "text": "30 minutes"
+      },
+      {
+        "id": "b",
+        "text": "60 minutes"
+      },
+      {
+        "id": "c",
+        "text": "90 minutes"
+      },
+      {
+        "id": "d",
+        "text": "120 minutes"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Slots are 60 minutes."
+  },
+  {
+    "id": "gam-05-q2",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-05",
+    "scenarioTitle": "Study room booking",
+    "scenario": "A campus library books study rooms in 60-minute slots from 09:00 to 21:00. Each room holds at most 6 people. Groups of 5 or more must book a Large room; groups of 4 or fewer may use Small or Large. Same-day bookings close at 08:00. Cancelled bookings free the slot immediately. Today is Monday; the desk opens at 08:30.",
+    "prompt": "A group of 6 must book which room type?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Small only"
+      },
+      {
+        "id": "b",
+        "text": "Large only"
+      },
+      {
+        "id": "c",
+        "text": "Either Small or Large"
+      },
+      {
+        "id": "d",
+        "text": "No room \u2014 group too big"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Groups of 5+ must book Large."
+  },
+  {
+    "id": "gam-05-q3",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-05",
+    "scenarioTitle": "Study room booking",
+    "scenario": "A campus library books study rooms in 60-minute slots from 09:00 to 21:00. Each room holds at most 6 people. Groups of 5 or more must book a Large room; groups of 4 or fewer may use Small or Large. Same-day bookings close at 08:00. Cancelled bookings free the slot immediately. Today is Monday; the desk opens at 08:30.",
+    "prompt": "A group of 4 arrives at 09:00 Monday wanting a same-day slot. Based on the rules:",
+    "options": [
+      {
+        "id": "a",
+        "text": "Same-day booking is still open at 09:00."
+      },
+      {
+        "id": "b",
+        "text": "Same-day booking closed at 08:00, so this path is not available under stated rules."
+      },
+      {
+        "id": "c",
+        "text": "They must book Large because 4 \u2265 4."
+      },
+      {
+        "id": "d",
+        "text": "They need 7 people to book."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Same-day bookings close at 08:00."
+  },
+  {
+    "id": "gam-05-q4",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-05",
+    "scenarioTitle": "Study room booking",
+    "scenario": "A campus library books study rooms in 60-minute slots from 09:00 to 21:00. Each room holds at most 6 people. Groups of 5 or more must book a Large room; groups of 4 or fewer may use Small or Large. Same-day bookings close at 08:00. Cancelled bookings free the slot immediately. Today is Monday; the desk opens at 08:30.",
+    "prompt": "Maximum people allowed in any booked room?",
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "5"
+      },
+      {
+        "id": "c",
+        "text": "6"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Each room holds at most 6."
+  },
+  {
+    "id": "gam-05-q5",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-05",
+    "scenarioTitle": "Study room booking",
+    "scenario": "A campus library books study rooms in 60-minute slots from 09:00 to 21:00. Each room holds at most 6 people. Groups of 5 or more must book a Large room; groups of 4 or fewer may use Small or Large. Same-day bookings close at 08:00. Cancelled bookings free the slot immediately. Today is Monday; the desk opens at 08:30.",
+    "prompt": "Which claim is NOT supported by the scenario?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Cancelled bookings free the slot immediately."
+      },
+      {
+        "id": "b",
+        "text": "The desk can override the 08:00 same-day cutoff for VIPs."
+      },
+      {
+        "id": "c",
+        "text": "Booking hours span 09:00\u201321:00."
+      },
+      {
+        "id": "d",
+        "text": "Groups of 3 may use a Small room."
+      }
+    ],
+    "answer": "b",
+    "explanation": "No VIP override is stated."
+  },
+  {
+    "id": "gam-06-q1",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-06",
+    "scenarioTitle": "Campus shuttle",
+    "scenario": "A campus shuttle runs every 20 minutes from Gate A to Lab Cluster B between 07:00 and 19:00. Travel time is 12 minutes. Capacity is 30 seated riders. Standing is not allowed. Riders with a Lab Cluster sticker board first; others board if seats remain. The last departure from Gate A is 18:40.",
+    "prompt": "How often does the shuttle depart from Gate A during service hours?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every 10 minutes"
+      },
+      {
+        "id": "b",
+        "text": "Every 20 minutes"
+      },
+      {
+        "id": "c",
+        "text": "Every 30 minutes"
+      },
+      {
+        "id": "d",
+        "text": "Hourly"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Every 20 minutes."
+  },
+  {
+    "id": "gam-06-q2",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-06",
+    "scenarioTitle": "Campus shuttle",
+    "scenario": "A campus shuttle runs every 20 minutes from Gate A to Lab Cluster B between 07:00 and 19:00. Travel time is 12 minutes. Capacity is 30 seated riders. Standing is not allowed. Riders with a Lab Cluster sticker board first; others board if seats remain. The last departure from Gate A is 18:40.",
+    "prompt": "If a shuttle leaves Gate A at 10:00, when does it arrive at Lab Cluster B?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10:08"
+      },
+      {
+        "id": "b",
+        "text": "10:12"
+      },
+      {
+        "id": "c",
+        "text": "10:20"
+      },
+      {
+        "id": "d",
+        "text": "10:30"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Travel time is 12 minutes."
+  },
+  {
+    "id": "gam-06-q3",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-06",
+    "scenarioTitle": "Campus shuttle",
+    "scenario": "A campus shuttle runs every 20 minutes from Gate A to Lab Cluster B between 07:00 and 19:00. Travel time is 12 minutes. Capacity is 30 seated riders. Standing is not allowed. Riders with a Lab Cluster sticker board first; others board if seats remain. The last departure from Gate A is 18:40.",
+    "prompt": "Maximum seated riders per departure?",
+    "options": [
+      {
+        "id": "a",
+        "text": "20"
+      },
+      {
+        "id": "b",
+        "text": "25"
+      },
+      {
+        "id": "c",
+        "text": "30"
+      },
+      {
+        "id": "d",
+        "text": "Unlimited if standing"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Capacity 30 seated; standing not allowed."
+  },
+  {
+    "id": "gam-06-q4",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-06",
+    "scenarioTitle": "Campus shuttle",
+    "scenario": "A campus shuttle runs every 20 minutes from Gate A to Lab Cluster B between 07:00 and 19:00. Travel time is 12 minutes. Capacity is 30 seated riders. Standing is not allowed. Riders with a Lab Cluster sticker board first; others board if seats remain. The last departure from Gate A is 18:40.",
+    "prompt": "A rider without a sticker arrives when 30 sticker holders are already boarding. Outcome under the rules?",
+    "options": [
+      {
+        "id": "a",
+        "text": "They board because capacity is flexible."
+      },
+      {
+        "id": "b",
+        "text": "They cannot board: seats are full and standing is forbidden."
+      },
+      {
+        "id": "c",
+        "text": "They displace one sticker holder."
+      },
+      {
+        "id": "d",
+        "text": "They must wait for the 19:00 departure."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Sticker holders fill all 30 seats; standing not allowed."
+  },
+  {
+    "id": "gam-06-q5",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-06",
+    "scenarioTitle": "Campus shuttle",
+    "scenario": "A campus shuttle runs every 20 minutes from Gate A to Lab Cluster B between 07:00 and 19:00. Travel time is 12 minutes. Capacity is 30 seated riders. Standing is not allowed. Riders with a Lab Cluster sticker board first; others board if seats remain. The last departure from Gate A is 18:40.",
+    "prompt": "Which departure is allowed?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Gate A at 18:40"
+      },
+      {
+        "id": "b",
+        "text": "Gate A at 19:00"
+      },
+      {
+        "id": "c",
+        "text": "Gate A at 19:20"
+      },
+      {
+        "id": "d",
+        "text": "Gate A at 06:40"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Last departure from Gate A is 18:40; service starts 07:00."
+  },
+  {
+    "id": "gam-07-q1",
+    "type": "gam",
+    "difficulty": "low",
+    "scenarioId": "gam-07",
+    "scenarioTitle": "Printer page quota",
+    "scenario": "A department printer gives each student 200 free pages per month. Colour pages cost 3 free-page credits each; black-and-white costs 1 credit each. Extra pages cost \u20ac0.05 per credit after the free allowance. Double-sided prints count as 2 pages. Jobs that would exceed the free allowance are rejected unless the student opts into paid extras.",
+    "prompt": "Free page credits per student per month?",
+    "options": [
+      {
+        "id": "a",
+        "text": "100"
+      },
+      {
+        "id": "b",
+        "text": "150"
+      },
+      {
+        "id": "c",
+        "text": "200"
+      },
+      {
+        "id": "d",
+        "text": "300"
+      }
+    ],
+    "answer": "c",
+    "explanation": "200 free pages."
+  },
+  {
+    "id": "gam-07-q2",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-07",
+    "scenarioTitle": "Printer page quota",
+    "scenario": "A department printer gives each student 200 free pages per month. Colour pages cost 3 free-page credits each; black-and-white costs 1 credit each. Extra pages cost \u20ac0.05 per credit after the free allowance. Double-sided prints count as 2 pages. Jobs that would exceed the free allowance are rejected unless the student opts into paid extras.",
+    "prompt": "Credits used by 10 colour pages (single-sided)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "20"
+      },
+      {
+        "id": "c",
+        "text": "30"
+      },
+      {
+        "id": "d",
+        "text": "3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Colour = 3 credits each \u2192 30."
+  },
+  {
+    "id": "gam-07-q3",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-07",
+    "scenarioTitle": "Printer page quota",
+    "scenario": "A department printer gives each student 200 free pages per month. Colour pages cost 3 free-page credits each; black-and-white costs 1 credit each. Extra pages cost \u20ac0.05 per credit after the free allowance. Double-sided prints count as 2 pages. Jobs that would exceed the free allowance are rejected unless the student opts into paid extras.",
+    "prompt": "Credits used by 5 double-sided black-and-white sheets?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "15"
+      },
+      {
+        "id": "d",
+        "text": "2"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Double-sided counts as 2 pages \u00d7 1 credit = 10."
+  },
+  {
+    "id": "gam-07-q4",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-07",
+    "scenarioTitle": "Printer page quota",
+    "scenario": "A department printer gives each student 200 free pages per month. Colour pages cost 3 free-page credits each; black-and-white costs 1 credit each. Extra pages cost \u20ac0.05 per credit after the free allowance. Double-sided prints count as 2 pages. Jobs that would exceed the free allowance are rejected unless the student opts into paid extras.",
+    "prompt": "A student has 0 free credits left and prints 20 black-and-white credits with paid extras. Cost?",
+    "options": [
+      {
+        "id": "a",
+        "text": "\u20ac0.05"
+      },
+      {
+        "id": "b",
+        "text": "\u20ac1.00"
+      },
+      {
+        "id": "c",
+        "text": "\u20ac0.50"
+      },
+      {
+        "id": "d",
+        "text": "Free"
+      }
+    ],
+    "answer": "b",
+    "explanation": "20 \u00d7 \u20ac0.05 = \u20ac1.00."
+  },
+  {
+    "id": "gam-07-q5",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-07",
+    "scenarioTitle": "Printer page quota",
+    "scenario": "A department printer gives each student 200 free pages per month. Colour pages cost 3 free-page credits each; black-and-white costs 1 credit each. Extra pages cost \u20ac0.05 per credit after the free allowance. Double-sided prints count as 2 pages. Jobs that would exceed the free allowance are rejected unless the student opts into paid extras.",
+    "prompt": "Student has 5 free credits left, opts out of paid extras, and submits a 10-credit black-and-white job. Result?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Job prints; overage is free."
+      },
+      {
+        "id": "b",
+        "text": "Job is rejected under the stated rules."
+      },
+      {
+        "id": "c",
+        "text": "Job prints in colour automatically."
+      },
+      {
+        "id": "d",
+        "text": "Only 5 pages print."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Jobs exceeding free allowance are rejected unless paid extras are opted in."
+  },
+  {
+    "id": "gam-08-q1",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-08",
+    "scenarioTitle": "Field-course kit",
+    "scenario": "A field-course kit must include: 1 first-aid pack, at least 2 water bottles per person, and 1 GPS unit for every 4 people (round up). Maximum group size is 12. Rain covers are required if the forecast shows \u226540% chance of rain. Today\u2019s forecast is 35% rain. The kit currently has 1 first-aid pack, 18 water bottles, 2 GPS units, and 0 rain covers.",
+    "prompt": "For a group of 8 people, how many GPS units are required (round up)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "8/4 = 2 exactly."
+  },
+  {
+    "id": "gam-08-q2",
+    "type": "gam",
+    "difficulty": "medium",
+    "scenarioId": "gam-08",
+    "scenarioTitle": "Field-course kit",
+    "scenario": "A field-course kit must include: 1 first-aid pack, at least 2 water bottles per person, and 1 GPS unit for every 4 people (round up). Maximum group size is 12. Rain covers are required if the forecast shows \u226540% chance of rain. Today\u2019s forecast is 35% rain. The kit currently has 1 first-aid pack, 18 water bottles, 2 GPS units, and 0 rain covers.",
+    "prompt": "For a group of 9 people, minimum water bottles required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "9"
+      },
+      {
+        "id": "b",
+        "text": "18"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "2"
+      }
+    ],
+    "answer": "b",
+    "explanation": "At least 2 per person \u2192 18."
+  },
+  {
+    "id": "gam-08-q3",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-08",
+    "scenarioTitle": "Field-course kit",
+    "scenario": "A field-course kit must include: 1 first-aid pack, at least 2 water bottles per person, and 1 GPS unit for every 4 people (round up). Maximum group size is 12. Rain covers are required if the forecast shows \u226540% chance of rain. Today\u2019s forecast is 35% rain. The kit currently has 1 first-aid pack, 18 water bottles, 2 GPS units, and 0 rain covers.",
+    "prompt": "Group size 10 with current kit stock. GPS requirement met?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 2 GPS units cover 10 people."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 10 people need 3 GPS units (round up), but only 2 are stocked."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 GPS is optional under 12 people."
+      },
+      {
+        "id": "d",
+        "text": "No \u2014 first-aid pack is missing."
+      }
+    ],
+    "answer": "b",
+    "explanation": "10/4 \u2192 2.5 \u2192 3 GPS; kit has 2."
+  },
+  {
+    "id": "gam-08-q4",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-08",
+    "scenarioTitle": "Field-course kit",
+    "scenario": "A field-course kit must include: 1 first-aid pack, at least 2 water bottles per person, and 1 GPS unit for every 4 people (round up). Maximum group size is 12. Rain covers are required if the forecast shows \u226540% chance of rain. Today\u2019s forecast is 35% rain. The kit currently has 1 first-aid pack, 18 water bottles, 2 GPS units, and 0 rain covers.",
+    "prompt": "With today\u2019s 35% rain forecast, are rain covers required?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Yes \u2014 any chance of rain requires covers."
+      },
+      {
+        "id": "b",
+        "text": "No \u2014 requirement triggers at \u226540%, and today is 35%."
+      },
+      {
+        "id": "c",
+        "text": "Yes \u2014 covers are always mandatory."
+      },
+      {
+        "id": "d",
+        "text": "Cannot tell \u2014 forecast units are unknown."
+      }
+    ],
+    "answer": "b",
+    "explanation": "Threshold is \u226540%; 35% does not trigger."
+  },
+  {
+    "id": "gam-08-q5",
+    "type": "gam",
+    "difficulty": "high",
+    "scenarioId": "gam-08",
+    "scenarioTitle": "Field-course kit",
+    "scenario": "A field-course kit must include: 1 first-aid pack, at least 2 water bottles per person, and 1 GPS unit for every 4 people (round up). Maximum group size is 12. Rain covers are required if the forecast shows \u226540% chance of rain. Today\u2019s forecast is 35% rain. The kit currently has 1 first-aid pack, 18 water bottles, 2 GPS units, and 0 rain covers.",
+    "prompt": "Which statement follows from the givens alone?",
+    "options": [
+      {
+        "id": "a",
+        "text": "The kit is ready for a full group of 12 without adding GPS units."
+      },
+      {
+        "id": "b",
+        "text": "Water bottles on hand (18) are enough for at most 9 people under the 2-per-person rule."
+      },
+      {
+        "id": "c",
+        "text": "Rain covers must be packed today."
+      },
+      {
+        "id": "d",
+        "text": "First-aid packs must number one per person."
+      }
+    ],
+    "answer": "b",
+    "explanation": "18 bottles \u00f7 2 = 9 people max; 12 would need 24 bottles and 3 GPS."
+  }
+]

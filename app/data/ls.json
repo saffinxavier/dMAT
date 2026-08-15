@@ -1,0 +1,3218 @@
+[
+  {
+    "id": "ls-l01",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "C",
+        "",
+        "E",
+        "A",
+        "B"
+      ],
+      [
+        "A",
+        "C",
+        "?",
+        "B",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "D",
+        "E",
+        "B",
+        "",
+        "A"
+      ],
+      [
+        "",
+        "",
+        "C",
+        "E",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (2,3) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-l02",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "E",
+        "A",
+        "C",
+        "",
+        "B"
+      ],
+      [
+        "",
+        "D",
+        "B",
+        "E",
+        "A"
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "?",
+        "A",
+        "C",
+        "D"
+      ],
+      [
+        "A",
+        "C",
+        "",
+        "B",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (4,2) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-l03",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "D",
+        "B",
+        "A",
+        "E",
+        "?"
+      ],
+      [
+        "",
+        "D",
+        "B",
+        "A",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "",
+        "C",
+        "D"
+      ],
+      [
+        "",
+        "E",
+        "C",
+        "",
+        "B"
+      ],
+      [
+        "E",
+        "",
+        "",
+        "B",
+        "A"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (1,5) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-l04",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "A",
+        "B",
+        "D",
+        "E",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "B",
+        "E",
+        "C",
+        "?",
+        "A"
+      ],
+      [
+        "C",
+        "",
+        "E",
+        "B",
+        "D"
+      ],
+      [
+        "E",
+        "D",
+        "",
+        "C",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (3,4) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-l05",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "E",
+        "?",
+        "D",
+        "A",
+        "C"
+      ],
+      [
+        "",
+        "A",
+        "",
+        "",
+        "B"
+      ],
+      [
+        "",
+        "E",
+        "B",
+        "C",
+        "D"
+      ],
+      [
+        "B",
+        "D",
+        "C",
+        "E",
+        "A"
+      ],
+      [
+        "",
+        "C",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (1,2) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-l06",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "D",
+        "A",
+        "E",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "E",
+        "C",
+        "D",
+        "A"
+      ],
+      [
+        "",
+        "D",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "C",
+        "?",
+        "A",
+        "E",
+        "D"
+      ],
+      [
+        "",
+        "C",
+        "",
+        "B",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (4,2) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-l07",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "A",
+        "",
+        "D",
+        "C",
+        ""
+      ],
+      [
+        "C",
+        "E",
+        "",
+        "B",
+        "D"
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "B",
+        "D",
+        "C",
+        "?",
+        "A"
+      ],
+      [
+        "E",
+        "A",
+        "",
+        "D",
+        "C"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (4,4) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-l08",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "B",
+        "",
+        "C",
+        "A",
+        ""
+      ],
+      [
+        "D",
+        "A",
+        "E",
+        "",
+        "B"
+      ],
+      [
+        "E",
+        "",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "A",
+        "C",
+        "?",
+        "E",
+        "D"
+      ],
+      [
+        "C",
+        "E",
+        "D",
+        "",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (4,3) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-l09",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "B",
+        "",
+        "D",
+        "C"
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "A",
+        "D",
+        "C",
+        "?",
+        "B"
+      ],
+      [
+        "D",
+        "C",
+        "",
+        "B",
+        "A"
+      ],
+      [
+        "B",
+        "A",
+        "",
+        "C",
+        "E"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (3,4) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-l10",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "D",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "",
+        "E",
+        "A",
+        "",
+        "D"
+      ],
+      [
+        "A",
+        "",
+        "B",
+        "D",
+        "E"
+      ],
+      [
+        "D",
+        "",
+        "E",
+        "C",
+        ""
+      ],
+      [
+        "B",
+        "A",
+        "?",
+        "E",
+        "C"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (5,3) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-l11",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "B",
+        "E",
+        "",
+        "A"
+      ],
+      [
+        "",
+        "D",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "",
+        "D",
+        "A",
+        ""
+      ],
+      [
+        "A",
+        "E",
+        "?",
+        "D",
+        "B"
+      ],
+      [
+        "",
+        "A",
+        "B",
+        "E",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (4,3) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-l12",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "D",
+        "E",
+        "B",
+        "C",
+        ""
+      ],
+      [
+        "B",
+        "",
+        "E",
+        "",
+        ""
+      ],
+      [
+        "?",
+        "D",
+        "C",
+        "E",
+        "B"
+      ],
+      [
+        "C",
+        "",
+        "D",
+        "",
+        ""
+      ],
+      [
+        "E",
+        "C",
+        "",
+        "B",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cell (3,1) must be A by Latin-square elimination."
+  },
+  {
+    "id": "ls-l13",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "D",
+        "C",
+        "E",
+        "B",
+        ""
+      ],
+      [
+        "E",
+        "D",
+        "?",
+        "A",
+        "C"
+      ],
+      [
+        "A",
+        "B",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "E",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "C",
+        "",
+        "D",
+        "",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (2,3) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-l14",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "D",
+        "A",
+        "",
+        "",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "A",
+        "",
+        "B"
+      ],
+      [
+        "E",
+        "D",
+        "",
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "C",
+        "D",
+        "E",
+        "?"
+      ],
+      [
+        "",
+        "",
+        "E",
+        "C",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cell (4,5) must be A by Latin-square elimination."
+  },
+  {
+    "id": "ls-l15",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "B",
+        "A",
+        "D",
+        "?",
+        "E"
+      ],
+      [
+        "",
+        "E",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "",
+        "D",
+        "",
+        "B",
+        ""
+      ],
+      [
+        "E",
+        "",
+        "B",
+        "D",
+        "A"
+      ],
+      [
+        "",
+        "B",
+        "A",
+        "E",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (1,4) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-l16",
+    "type": "ls",
+    "difficulty": "low",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "E",
+        "",
+        "A",
+        "",
+        "C"
+      ],
+      [
+        "B",
+        "",
+        "D",
+        "A",
+        "E"
+      ],
+      [
+        "D",
+        "",
+        "E",
+        "",
+        ""
+      ],
+      [
+        "A",
+        "E",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "C",
+        "A",
+        "?",
+        "E",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (5,3) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-m01",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "E",
+        "B",
+        ""
+      ],
+      [
+        "D",
+        "A",
+        "C",
+        "?",
+        "B"
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        "C"
+      ],
+      [
+        "",
+        "E",
+        "B",
+        "D",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "C",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (2,4) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-m02",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "D",
+        "",
+        "",
+        "B"
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        ""
+      ],
+      [
+        "C",
+        "?",
+        "D",
+        "B",
+        "A"
+      ],
+      [
+        "E",
+        "A",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "A",
+        "",
+        "E"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (3,2) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-m03",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "B",
+        "C",
+        "E",
+        "?",
+        "A"
+      ],
+      [
+        "E",
+        "",
+        "",
+        "A",
+        "B"
+      ],
+      [
+        "",
+        "",
+        "",
+        "C",
+        ""
+      ],
+      [
+        "",
+        "A",
+        "",
+        "B",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "E",
+        "C"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (1,4) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-m04",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "B"
+      ],
+      [
+        "E",
+        "A",
+        "C",
+        "B",
+        "?"
+      ],
+      [
+        "C",
+        "",
+        "B",
+        "D",
+        "A"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "C"
+      ],
+      [
+        "B",
+        "",
+        "",
+        "",
+        "E"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (2,5) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-m05",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "E",
+        "D",
+        "A",
+        "?",
+        "C"
+      ],
+      [
+        "B",
+        "",
+        "",
+        "A",
+        "D"
+      ],
+      [
+        "",
+        "",
+        "",
+        "D",
+        ""
+      ],
+      [
+        "",
+        "",
+        "B",
+        "E",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "C",
+        "E"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (1,4) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-m06",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "C",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "B",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "D",
+        "A",
+        ""
+      ],
+      [
+        "",
+        "A",
+        "",
+        "D",
+        "C"
+      ],
+      [
+        "C",
+        "D",
+        "B",
+        "?",
+        "A"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (5,4) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-m07",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "A",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "C",
+        "E",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "A",
+        "D",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        ""
+      ],
+      [
+        "D",
+        "?",
+        "B",
+        "A",
+        "E"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (5,2) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-m08",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "E",
+        "",
+        "D",
+        "",
+        "B"
+      ],
+      [
+        "A",
+        "",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "?",
+        "E",
+        "B",
+        "D",
+        "A"
+      ],
+      [
+        "D",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "",
+        "",
+        "",
+        "C"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (3,1) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-m09",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "E",
+        "D",
+        "A",
+        "B",
+        "?"
+      ],
+      [
+        "",
+        "",
+        "E",
+        "",
+        "B"
+      ],
+      [
+        "",
+        "",
+        "",
+        "D",
+        "E"
+      ],
+      [
+        "",
+        "E",
+        "",
+        "",
+        "D"
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        "A"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (1,5) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-m10",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "C",
+        "",
+        "",
+        "D",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "C",
+        ""
+      ],
+      [
+        "",
+        "E",
+        "",
+        "A",
+        "D"
+      ],
+      [
+        "",
+        "",
+        "",
+        "B",
+        "C"
+      ],
+      [
+        "A",
+        "C",
+        "D",
+        "?",
+        "B"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (5,4) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-m11",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "D",
+        "?",
+        "E",
+        "C",
+        "B"
+      ],
+      [
+        "",
+        "E",
+        "",
+        "",
+        "D"
+      ],
+      [
+        "",
+        "C",
+        "",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "D",
+        "",
+        "",
+        ""
+      ],
+      [
+        "C",
+        "B",
+        "",
+        "A",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cell (1,2) must be A by Latin-square elimination."
+  },
+  {
+    "id": "ls-m12",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "C"
+      ],
+      [
+        "",
+        "",
+        "A",
+        "B",
+        "D"
+      ],
+      [
+        "C",
+        "A",
+        "",
+        "",
+        "B"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "E"
+      ],
+      [
+        "B",
+        "E",
+        "C",
+        "D",
+        "?"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cell (5,5) must be A by Latin-square elimination."
+  },
+  {
+    "id": "ls-m13",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "A",
+        "B",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "E",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "C",
+        "?",
+        "A",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "C",
+        "",
+        "B"
+      ],
+      [
+        "",
+        "D",
+        "A",
+        "B",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (3,3) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-m14",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "C",
+        "B"
+      ],
+      [
+        "D",
+        "B",
+        "A",
+        "?",
+        "C"
+      ],
+      [
+        "",
+        "D",
+        "",
+        "B",
+        ""
+      ],
+      [
+        "A",
+        "",
+        "",
+        "D",
+        ""
+      ],
+      [
+        "",
+        "E",
+        "",
+        "A",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (2,4) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-m15",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "B",
+        "D",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "E",
+        "D",
+        ""
+      ],
+      [
+        "D",
+        "C",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "A",
+        "E",
+        "?",
+        "C",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (5,3) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-m16",
+    "type": "ls",
+    "difficulty": "medium",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "C",
+        "D",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "A",
+        "",
+        "B",
+        ""
+      ],
+      [
+        "A",
+        "C",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "B",
+        "?",
+        "A",
+        "D",
+        "C"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (5,2) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-h01",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "C",
+        "?",
+        "A",
+        "E",
+        "B"
+      ],
+      [
+        "",
+        "E",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "A",
+        "",
+        "C",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (1,2) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-h02",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        "C"
+      ],
+      [
+        "B",
+        "A",
+        "E",
+        "C",
+        "?"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "B"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (4,5) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-h03",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "C",
+        "",
+        "",
+        "",
+        "D"
+      ],
+      [
+        "D",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "A",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "?",
+        "C",
+        "E",
+        "D",
+        "A"
+      ],
+      [
+        "E",
+        "",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (4,1) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-h04",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "C",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "A",
+        "B",
+        "E",
+        "?",
+        "C"
+      ],
+      [
+        "",
+        "",
+        "",
+        "E",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "B",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (3,4) must be D by Latin-square elimination."
+  },
+  {
+    "id": "ls-h05",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "D",
+        ""
+      ],
+      [
+        "A",
+        "B",
+        "D",
+        "?",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "E",
+        ""
+      ],
+      [
+        "",
+        "A",
+        "",
+        "B",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (2,4) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-h06",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "B",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "D",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "C",
+        "D",
+        ""
+      ],
+      [
+        "C",
+        "B",
+        "?",
+        "E",
+        "D"
+      ],
+      [
+        "",
+        "",
+        "E",
+        "",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cell (4,3) must be A by Latin-square elimination."
+  },
+  {
+    "id": "ls-h07",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "",
+        "",
+        "",
+        "C",
+        "D"
+      ],
+      [
+        "A",
+        "E",
+        "C",
+        "D",
+        "?"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "C"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (3,5) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-h08",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "",
+        "D"
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        "E"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "A"
+      ],
+      [
+        "E",
+        "D",
+        "C",
+        "A",
+        "?"
+      ],
+      [
+        "",
+        "",
+        "",
+        "",
+        "C"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (4,5) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-h09",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "B",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "A",
+        "",
+        "",
+        ""
+      ],
+      [
+        "E",
+        "D",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "E",
+        "",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "?",
+        "D",
+        "E",
+        "A"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (5,2) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-h10",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "A",
+        "",
+        "",
+        "C",
+        ""
+      ],
+      [
+        "E",
+        "A",
+        "D",
+        "?",
+        "C"
+      ],
+      [
+        "",
+        "",
+        "",
+        "D",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "E",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (2,4) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-h11",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "E",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "B",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "D",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "?",
+        "E",
+        "C",
+        "D"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "a",
+    "explanation": "Cell (5,2) must be A by Latin-square elimination."
+  },
+  {
+    "id": "ls-h12",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "",
+        "A",
+        ""
+      ],
+      [
+        "A",
+        "B",
+        "E",
+        "?",
+        "D"
+      ],
+      [
+        "",
+        "",
+        "",
+        "B",
+        ""
+      ],
+      [
+        "",
+        "",
+        "",
+        "D",
+        ""
+      ],
+      [
+        "C",
+        "",
+        "",
+        "E",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "c",
+    "explanation": "Cell (2,4) must be C by Latin-square elimination."
+  },
+  {
+    "id": "ls-h13",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "D",
+        "",
+        "",
+        ""
+      ],
+      [
+        "B",
+        "A",
+        "",
+        "",
+        ""
+      ],
+      [
+        "E",
+        "?",
+        "A",
+        "C",
+        "D"
+      ],
+      [
+        "",
+        "E",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (3,2) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-h14",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "C",
+        "E",
+        ""
+      ],
+      [
+        "",
+        "",
+        "B",
+        "",
+        ""
+      ],
+      [
+        "C",
+        "D",
+        "?",
+        "A",
+        "B"
+      ],
+      [
+        "",
+        "",
+        "D",
+        "",
+        ""
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "e",
+    "explanation": "Cell (4,3) must be E by Latin-square elimination."
+  },
+  {
+    "id": "ls-h15",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "E",
+        "",
+        "",
+        ""
+      ],
+      [
+        "D",
+        "?",
+        "A",
+        "C",
+        "E"
+      ],
+      [
+        "",
+        "A",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "D",
+        "",
+        "",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "",
+        "",
+        "B"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "b",
+    "explanation": "Cell (2,2) must be B by Latin-square elimination."
+  },
+  {
+    "id": "ls-h16",
+    "type": "ls",
+    "difficulty": "high",
+    "prompt": "Each letter A\u2013E appears once per row and once per column. What letter replaces the question mark?",
+    "grid": [
+      [
+        "",
+        "E",
+        "B",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "E",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "A",
+        "",
+        ""
+      ],
+      [
+        "",
+        "",
+        "C",
+        "",
+        ""
+      ],
+      [
+        "C",
+        "A",
+        "?",
+        "E",
+        "B"
+      ]
+    ],
+    "options": [
+      {
+        "id": "a",
+        "text": "A"
+      },
+      {
+        "id": "b",
+        "text": "B"
+      },
+      {
+        "id": "c",
+        "text": "C"
+      },
+      {
+        "id": "d",
+        "text": "D"
+      },
+      {
+        "id": "e",
+        "text": "E"
+      }
+    ],
+    "answer": "d",
+    "explanation": "Cell (5,3) must be D by Latin-square elimination."
+  }
+]

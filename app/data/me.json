@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "me-l01",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 3\nA + B = 5",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 3,
+    "options": [
+      {
+        "id": "a",
+        "text": "17"
+      },
+      {
+        "id": "b",
+        "text": "19"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A = 3. A=3, B=2."
+  },
+  {
+    "id": "me-l02",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 4\nA + B = 16",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 12,
+    "options": [
+      {
+        "id": "a",
+        "text": "14"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "c",
+        "text": "5"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "answer": "b",
+    "explanation": "B = 12. A=4, B=12."
+  },
+  {
+    "id": "me-l03",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 18\nA + B = 25",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 7,
+    "options": [
+      {
+        "id": "a",
+        "text": "17"
+      },
+      {
+        "id": "b",
+        "text": "7"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "6"
+      }
+    ],
+    "answer": "b",
+    "explanation": "B = 7. A=18, B=7."
+  },
+  {
+    "id": "me-l04",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 8\nA + B = 19",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 8,
+    "options": [
+      {
+        "id": "a",
+        "text": "18"
+      },
+      {
+        "id": "b",
+        "text": "8"
+      },
+      {
+        "id": "c",
+        "text": "14"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A = 8. A=8, B=11."
+  },
+  {
+    "id": "me-l05",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 3\nA + B = 9",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 6,
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "c",
+        "text": "14"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "a",
+    "explanation": "B = 6. A=3, B=6."
+  },
+  {
+    "id": "me-l06",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 6\nA + B = 26",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 6,
+    "options": [
+      {
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "2"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A = 6. A=6, B=20."
+  },
+  {
+    "id": "me-l07",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 9\nA + B = 19",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 10,
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "5"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "B = 10. A=9, B=10."
+  },
+  {
+    "id": "me-l08",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 4\nA + B = 22",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 4,
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "8"
+      },
+      {
+        "id": "c",
+        "text": "19"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A = 4. A=4, B=18."
+  },
+  {
+    "id": "me-l09",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 5\nA + B = 7",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 2,
+    "options": [
+      {
+        "id": "a",
+        "text": "16"
+      },
+      {
+        "id": "b",
+        "text": "5"
+      },
+      {
+        "id": "c",
+        "text": "2"
+      },
+      {
+        "id": "d",
+        "text": "14"
+      }
+    ],
+    "answer": "c",
+    "explanation": "B = 2. A=5, B=2."
+  },
+  {
+    "id": "me-l10",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 9\nA + B = 19",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 9,
+    "options": [
+      {
+        "id": "a",
+        "text": "18"
+      },
+      {
+        "id": "b",
+        "text": "14"
+      },
+      {
+        "id": "c",
+        "text": "9"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A = 9. A=9, B=10."
+  },
+  {
+    "id": "me-l11",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 1\nA + B = 20",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 1,
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "19"
+      },
+      {
+        "id": "d",
+        "text": "1"
+      }
+    ],
+    "answer": "d",
+    "explanation": "A = 1. A=1, B=19."
+  },
+  {
+    "id": "me-l12",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 6\nA + B = 14",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 8,
+    "options": [
+      {
+        "id": "a",
+        "text": "8"
+      },
+      {
+        "id": "b",
+        "text": "3"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "20"
+      }
+    ],
+    "answer": "a",
+    "explanation": "B = 8. A=6, B=8."
+  },
+  {
+    "id": "me-l13",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 18\nA + B = 28",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 10,
+    "options": [
+      {
+        "id": "a",
+        "text": "13"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "18"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "answer": "d",
+    "explanation": "B = 10. A=18, B=10."
+  },
+  {
+    "id": "me-l14",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 19\nA + B = 23",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 4,
+    "options": [
+      {
+        "id": "a",
+        "text": "19"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "10"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "d",
+    "explanation": "B = 4. A=19, B=4."
+  },
+  {
+    "id": "me-l15",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 1\nA + B = 13",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 1,
+    "options": [
+      {
+        "id": "a",
+        "text": "16"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "20"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A = 1. A=1, B=12."
+  },
+  {
+    "id": "me-l16",
+    "type": "me",
+    "difficulty": "low",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 12\nA + B = 29",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 17,
+    "options": [
+      {
+        "id": "a",
+        "text": "9"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "c",
+        "text": "13"
+      },
+      {
+        "id": "d",
+        "text": "17"
+      }
+    ],
+    "answer": "d",
+    "explanation": "B = 17. A=12, B=17."
+  },
+  {
+    "id": "me-m01",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 19\nA + B = 29\nB + C = 25",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 19,
+    "options": [
+      {
+        "id": "a",
+        "text": "19"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "18"
+      },
+      {
+        "id": "d",
+        "text": "14"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A = 19. A=19, B=10, C=15."
+  },
+  {
+    "id": "me-m02",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 5\nA + B = 20\nB + C = 33",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 15,
+    "options": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "13"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "20"
+      }
+    ],
+    "answer": "a",
+    "explanation": "B = 15. A=5, B=15, C=18."
+  },
+  {
+    "id": "me-m03",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 5\nA + B = 8\nB + C = 22",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 3,
+    "options": [
+      {
+        "id": "a",
+        "text": "13"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "9"
+      },
+      {
+        "id": "d",
+        "text": "3"
+      }
+    ],
+    "answer": "d",
+    "explanation": "B = 3. A=5, B=3, C=19."
+  },
+  {
+    "id": "me-m04",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 6\nA + B = 8\nB + C = 9",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 7,
+    "options": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "7"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "1"
+      }
+    ],
+    "answer": "b",
+    "explanation": "C = 7. A=6, B=2, C=7."
+  },
+  {
+    "id": "me-m05",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 12\nA + B = 25\nB + C = 30",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 12,
+    "options": [
+      {
+        "id": "a",
+        "text": "12"
+      },
+      {
+        "id": "b",
+        "text": "20"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "13"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A = 12. A=12, B=13, C=17."
+  },
+  {
+    "id": "me-m06",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 14\nA + B = 31\nB + C = 23",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 14,
+    "options": [
+      {
+        "id": "a",
+        "text": "14"
+      },
+      {
+        "id": "b",
+        "text": "20"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "16"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A = 14. A=14, B=17, C=6."
+  },
+  {
+    "id": "me-m07",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 17\nA + B = 23\nB + C = 9",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 3,
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "15"
+      },
+      {
+        "id": "c",
+        "text": "20"
+      },
+      {
+        "id": "d",
+        "text": "1"
+      }
+    ],
+    "answer": "a",
+    "explanation": "C = 3. A=17, B=6, C=3."
+  },
+  {
+    "id": "me-m08",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 1\nA + B = 12\nB + C = 31",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 1,
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "10"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A = 1. A=1, B=11, C=20."
+  },
+  {
+    "id": "me-m09",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 14\nA + B = 33\nB + C = 21",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 19,
+    "options": [
+      {
+        "id": "a",
+        "text": "19"
+      },
+      {
+        "id": "b",
+        "text": "20"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "answer": "a",
+    "explanation": "B = 19. A=14, B=19, C=2."
+  },
+  {
+    "id": "me-m10",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 12\nA + B = 13\nB + C = 3",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 2,
+    "options": [
+      {
+        "id": "a",
+        "text": "2"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "13"
+      }
+    ],
+    "answer": "a",
+    "explanation": "C = 2. A=12, B=1, C=2."
+  },
+  {
+    "id": "me-m11",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 9\nA + B = 23\nB + C = 18",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 9,
+    "options": [
+      {
+        "id": "a",
+        "text": "17"
+      },
+      {
+        "id": "b",
+        "text": "3"
+      },
+      {
+        "id": "c",
+        "text": "20"
+      },
+      {
+        "id": "d",
+        "text": "9"
+      }
+    ],
+    "answer": "d",
+    "explanation": "A = 9. A=9, B=14, C=4."
+  },
+  {
+    "id": "me-m12",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 15\nA + B = 17\nB + C = 14",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 12,
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "13"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "6"
+      }
+    ],
+    "answer": "c",
+    "explanation": "C = 12. A=15, B=2, C=12."
+  },
+  {
+    "id": "me-m13",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 15\nA + B = 26\nB + C = 29",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 15,
+    "options": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "9"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "answer": "a",
+    "explanation": "A = 15. A=15, B=11, C=18."
+  },
+  {
+    "id": "me-m14",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 5\nA + B = 22\nB + C = 26",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 17,
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "c",
+        "text": "17"
+      },
+      {
+        "id": "d",
+        "text": "3"
+      }
+    ],
+    "answer": "c",
+    "explanation": "B = 17. A=5, B=17, C=9."
+  },
+  {
+    "id": "me-m15",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 15\nA + B = 19\nB + C = 12",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 8,
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "7"
+      },
+      {
+        "id": "c",
+        "text": "2"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "answer": "d",
+    "explanation": "C = 8. A=15, B=4, C=8."
+  },
+  {
+    "id": "me-m16",
+    "type": "me",
+    "difficulty": "medium",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 2\nA + B = 22\nB + C = 36",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 16,
+    "options": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "c",
+        "text": "5"
+      },
+      {
+        "id": "d",
+        "text": "19"
+      }
+    ],
+    "answer": "b",
+    "explanation": "C = 16. A=2, B=20, C=16."
+  },
+  {
+    "id": "me-h01",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of D.",
+    "equations": "A + B = 11\nA = 7\nB + C = 17\nC + D = 14",
+    "ask": "D",
+    "entryMode": "numeric",
+    "answerValue": 1,
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "5"
+      },
+      {
+        "id": "c",
+        "text": "14"
+      },
+      {
+        "id": "d",
+        "text": "18"
+      }
+    ],
+    "answer": "a",
+    "explanation": "D = 1. A=7, B=4, C=13, D=1."
+  },
+  {
+    "id": "me-h02",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of D.",
+    "equations": "A + B = 24\nA = 20\nB + C = 21\nC + D = 26",
+    "ask": "D",
+    "entryMode": "numeric",
+    "answerValue": 9,
+    "options": [
+      {
+        "id": "a",
+        "text": "7"
+      },
+      {
+        "id": "b",
+        "text": "9"
+      },
+      {
+        "id": "c",
+        "text": "11"
+      },
+      {
+        "id": "d",
+        "text": "19"
+      }
+    ],
+    "answer": "b",
+    "explanation": "D = 9. A=20, B=4, C=17, D=9."
+  },
+  {
+    "id": "me-h03",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of D.",
+    "equations": "A + B = 24\nA = 19\nB + C = 16\nC + D = 31",
+    "ask": "D",
+    "entryMode": "numeric",
+    "answerValue": 20,
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "20"
+      },
+      {
+        "id": "c",
+        "text": "11"
+      },
+      {
+        "id": "d",
+        "text": "13"
+      }
+    ],
+    "answer": "b",
+    "explanation": "D = 20. A=19, B=5, C=11, D=20."
+  },
+  {
+    "id": "me-h04",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A + B = 21\nA = 9\nB + C = 17\nC + D = 11",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 5,
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "19"
+      },
+      {
+        "id": "c",
+        "text": "9"
+      },
+      {
+        "id": "d",
+        "text": "5"
+      }
+    ],
+    "answer": "d",
+    "explanation": "C = 5. A=9, B=12, C=5, D=6."
+  },
+  {
+    "id": "me-h05",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A + B = 24\nA = 17\nB + C = 12\nC + D = 15",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 7,
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "7"
+      },
+      {
+        "id": "c",
+        "text": "15"
+      },
+      {
+        "id": "d",
+        "text": "1"
+      }
+    ],
+    "answer": "b",
+    "explanation": "B = 7. A=17, B=7, C=5, D=10."
+  },
+  {
+    "id": "me-h06",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A + B = 21\nA = 18\nB + C = 22\nC + D = 23",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 19,
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "3"
+      },
+      {
+        "id": "c",
+        "text": "19"
+      },
+      {
+        "id": "d",
+        "text": "2"
+      }
+    ],
+    "answer": "c",
+    "explanation": "C = 19. A=18, B=3, C=19, D=4."
+  },
+  {
+    "id": "me-h07",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A + B = 12\nA = 8\nB + C = 20\nC + D = 29",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 16,
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "13"
+      },
+      {
+        "id": "d",
+        "text": "16"
+      }
+    ],
+    "answer": "d",
+    "explanation": "C = 16. A=8, B=4, C=16, D=13."
+  },
+  {
+    "id": "me-h08",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A + B = 11\nA = 5\nB + C = 17\nC + D = 18",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 5,
+    "options": [
+      {
+        "id": "a",
+        "text": "9"
+      },
+      {
+        "id": "b",
+        "text": "5"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "answer": "b",
+    "explanation": "A = 5. A=5, B=6, C=11, D=7."
+  },
+  {
+    "id": "me-h09",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 4\nB = 16\nA + C = 17\nC + D = 30",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 4,
+    "options": [
+      {
+        "id": "a",
+        "text": "17"
+      },
+      {
+        "id": "b",
+        "text": "11"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "20"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A = 4. A=4, B=16, C=13, D=17."
+  },
+  {
+    "id": "me-h10",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 12\nB = 17\nA + C = 31\nC + D = 33",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 19,
+    "options": [
+      {
+        "id": "a",
+        "text": "19"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "14"
+      },
+      {
+        "id": "d",
+        "text": "2"
+      }
+    ],
+    "answer": "a",
+    "explanation": "C = 19. A=12, B=17, C=19, D=14."
+  },
+  {
+    "id": "me-h11",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of D.",
+    "equations": "A = 3\nB = 17\nA + C = 11\nC + D = 24",
+    "ask": "D",
+    "entryMode": "numeric",
+    "answerValue": 16,
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "c",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "answer": "b",
+    "explanation": "D = 16. A=3, B=17, C=8, D=16."
+  },
+  {
+    "id": "me-h12",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 15\nB = 18\nA + C = 35\nC + D = 39",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 18,
+    "options": [
+      {
+        "id": "a",
+        "text": "18"
+      },
+      {
+        "id": "b",
+        "text": "13"
+      },
+      {
+        "id": "c",
+        "text": "14"
+      },
+      {
+        "id": "d",
+        "text": "20"
+      }
+    ],
+    "answer": "a",
+    "explanation": "B = 18. A=15, B=18, C=20, D=19."
+  },
+  {
+    "id": "me-h13",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 5\nB = 1\nA + C = 11\nC + D = 23",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 6,
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "15"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "10"
+      }
+    ],
+    "answer": "a",
+    "explanation": "C = 6. A=5, B=1, C=6, D=17."
+  },
+  {
+    "id": "me-h14",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of A.",
+    "equations": "A = 3\nB = 10\nA + C = 4\nC + D = 7",
+    "ask": "A",
+    "entryMode": "numeric",
+    "answerValue": 3,
+    "options": [
+      {
+        "id": "a",
+        "text": "8"
+      },
+      {
+        "id": "b",
+        "text": "6"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "7"
+      }
+    ],
+    "answer": "c",
+    "explanation": "A = 3. A=3, B=10, C=1, D=6."
+  },
+  {
+    "id": "me-h15",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of C.",
+    "equations": "A = 4\nB = 2\nA + C = 17\nC + D = 25",
+    "ask": "C",
+    "entryMode": "numeric",
+    "answerValue": 13,
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "13"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "answer": "b",
+    "explanation": "C = 13. A=4, B=2, C=13, D=12."
+  },
+  {
+    "id": "me-h16",
+    "type": "me",
+    "difficulty": "high",
+    "prompt": "Each letter stands for a distinct integer from 1 to 20. Find the value of B.",
+    "equations": "A = 11\nB = 1\nA + C = 25\nC + D = 24",
+    "ask": "B",
+    "entryMode": "numeric",
+    "answerValue": 1,
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "4"
+      },
+      {
+        "id": "d",
+        "text": "3"
+      }
+    ],
+    "answer": "b",
+    "explanation": "B = 1. A=11, B=1, C=14, D=10."
+  }
+]
