@@ -28,6 +28,8 @@ Progress is stored in that browser’s localStorage (phone and PC stay separate)
 - **Practice** defaults to **dark** (easier on eyes). Toggle Light/Dark in the hub header.
 - **Exam Mock** forces a separate **light grey test-centre** skin.
 
+**Mobile:** Practice, Learn, and About are laid out for phones. Exam Mock stays desktop-style (test-centre layout) with a “Desktop recommended” note on narrow screens — still openable.
+
 ## Learn codes
 
 Hub button **Learn codes** opens an interactive view (practice only — not in Exam Mock):

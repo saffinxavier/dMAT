@@ -161,10 +161,15 @@ export function startExamMock({ bank, root, onExit }) {
   }
 
   function renderIntro() {
+    const narrow = typeof matchMedia === 'function' && matchMedia('(max-width: 640px)').matches;
+    const mobileWarn = narrow
+      ? `<p class="exam-mobile-warn"><strong>Desktop recommended</strong> — layout matches the test centre; OK on phone but cramped.</p>`
+      : '';
     root.innerHTML = `
       <div class="exam-intro">
         <h2>Exam Mock</h2>
         <p><strong>Approximate</strong> test-centre flow (not an official g.a.s.t. clone).</p>
+        ${mobileWarn}
         <ul>
           <li>Figure Sequences → Mathematical Equations → Latin Squares (25 min each)</li>
           <li>30 min break (skippable here)</li>

@@ -644,7 +644,8 @@ body.exam-shell .app > footer,
 body.exam-shell #hubView,
 body.exam-shell #quizView,
 body.exam-shell #resultView,
-body.exam-shell #learnView {
+body.exam-shell #learnView,
+body.exam-shell #aboutView {
   display: none !important;
 }
 
@@ -1105,4 +1106,168 @@ body.exam-shell #learnView {
   font-weight: 700;
   border-radius: 10px;
   padding: 0.45rem 0.65rem;
+}
+
+/* ===== Practice mobile (Exam Mock shell untouched) ===== */
+@media (max-width: 640px) {
+  body:not(.exam-shell) .app {
+    padding: 0.85rem max(0.85rem, env(safe-area-inset-right))
+      max(1rem, env(safe-area-inset-bottom)) max(0.85rem, env(safe-area-inset-left));
+  }
+
+  body:not(.exam-shell) h1 {
+    font-size: 1.35rem;
+  }
+
+  body:not(.exam-shell) .sub {
+    font-size: 0.85rem;
+  }
+
+  body:not(.exam-shell) .panel {
+    padding: 0.9rem 0.95rem;
+  }
+
+  body:not(.exam-shell) #hubView .controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  body:not(.exam-shell) #hubView .controls button {
+    width: 100%;
+    border-radius: 12px;
+    min-height: 44px;
+    padding: 0.65rem 0.5rem;
+    font-size: 0.88rem;
+  }
+
+  body:not(.exam-shell) #hubView .controls button.primary,
+  body:not(.exam-shell) #hubView .controls button.danger {
+    grid-column: 1 / -1;
+  }
+
+  body:not(.exam-shell) select,
+  body:not(.exam-shell) textarea {
+    font-size: 16px; /* avoids iOS zoom on focus */
+    min-height: 44px;
+  }
+
+  body:not(.exam-shell) .quiz-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  body:not(.exam-shell) .nav-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  body:not(.exam-shell) .nav-row .controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  body:not(.exam-shell) .nav-row .controls button {
+    min-height: 44px;
+    border-radius: 12px;
+    width: 100%;
+  }
+
+  body:not(.exam-shell) .option {
+    min-height: 44px;
+    padding: 0.75rem 0.85rem;
+    align-items: center;
+  }
+
+  body:not(.exam-shell) .keypad {
+    max-width: none;
+    width: 100%;
+    gap: 0.45rem;
+  }
+
+  body:not(.exam-shell) .keypad button {
+    min-height: 48px;
+    font-size: 1.05rem;
+  }
+
+  body:not(.exam-shell) .letter-picker button {
+    min-width: 2.75rem;
+    min-height: 44px;
+  }
+
+  body:not(.exam-shell) .latin-grid {
+    grid-template-columns: repeat(5, minmax(2.75rem, 1fr));
+    width: 100%;
+    max-width: 20rem;
+  }
+
+  body:not(.exam-shell) .latin-cell {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    min-height: 2.75rem;
+  }
+
+  body:not(.exam-shell) .fs-row,
+  body:not(.exam-shell) .frame-pool,
+  body:not(.exam-shell) .dual-slots {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 0.35rem;
+    max-width: 100%;
+  }
+
+  body:not(.exam-shell) .fs-row {
+    flex-wrap: wrap;
+  }
+
+  body:not(.exam-shell) .scratch-wrap textarea {
+    width: 100%;
+  }
+
+  body:not(.exam-shell) .code-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body:not(.exam-shell) .code-card,
+  body:not(.exam-shell) .code-card-inner {
+    min-height: 220px;
+  }
+
+  body:not(.exam-shell) .code-chip {
+    min-height: 44px;
+  }
+
+  body:not(.exam-shell) .about-view {
+    max-width: none;
+  }
+
+  body:not(.exam-shell) .about-table-wrap,
+  body:not(.exam-shell) .panel:has(.about-table) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body:not(.exam-shell) .about-table {
+    font-size: 0.8rem;
+    min-width: 280px;
+  }
+
+  body:not(.exam-shell) .stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .exam-mobile-warn {
+    margin: 0.75rem 0;
+    padding: 0.65rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #c9a227;
+    background: #fff8e6;
+    color: #5c4a10;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
 }
