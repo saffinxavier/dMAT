@@ -15,6 +15,14 @@ python -m http.server 8080
 
 Open http://localhost:8080
 
+## Phone / travel (GitHub Pages)
+
+After Pages is enabled, the live app is:
+
+**https://saffinxavier.github.io/dMAT/**
+
+Progress is stored in that browser’s localStorage (phone and PC stay separate). Deploy runs automatically on every push to `main` (workflow: `.github/workflows/pages.yml`).
+
 ## Themes (1B)
 
 - **Practice** defaults to **dark** (easier on eyes). Toggle Light/Dark in the hub header.

@@ -42,7 +42,7 @@ Register here: [g.a.s.t. dMAT portal](https://www.gast.de/portal/center-search/c
 | Resource | Link |
 | --- | --- |
 | **Prerequisites** (Python to run the app) | [PREREQUISITES.md](PREREQUISITES.md) |
-| **Interactive prep app** (dark practice + Exam Mock) | [app/](app/) — see [app/README.md](app/README.md) |
+| **Interactive prep app** (dark practice + Exam Mock) | [app/](app/) — see [app/README.md](app/README.md) · live: [saffinxavier.github.io/dMAT](https://saffinxavier.github.io/dMAT/) |
 | **How to add questions** | [app/ADDING-QUESTIONS.md](app/ADDING-QUESTIONS.md) |
 | **Progress tracker** | [progress/TRACKER.md](progress/TRACKER.md) |
 | **Cheat codes** (study memory aids) | [materials/CHEATS.md](materials/CHEATS.md) |
