@@ -88,3 +88,44 @@ export function setTheme(theme) {
 export function applyStoredTheme() {
   return setTheme(getTheme());
 }
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/** Unseen → wrong/flagged → correct; shuffle within each tier. */
+export function pickByProgress(pool, progress, limit) {
+  const p = progress || emptyProgress();
+  const attempts = p.attempts || {};
+  const flags = p.flags || {};
+  const n = Math.max(0, Math.min(limit, pool.length));
+  if (n === 0) return [];
+
+  const unseen = [];
+  const recycle = [];
+  const correct = [];
+  for (const q of pool) {
+    const att = attempts[q.id];
+    if (!att) unseen.push(q);
+    else if (!att.correct || flags[q.id]) recycle.push(q);
+    else correct.push(q);
+  }
+
+  const out = [];
+  const take = (tier) => {
+    for (const q of shuffle(tier)) {
+      if (out.length >= n) break;
+      out.push(q);
+    }
+  };
+  take(unseen);
+  take(recycle);
+  take(correct);
+  return out;
+}
+

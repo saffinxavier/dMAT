@@ -9,6 +9,7 @@ import {
   applyStoredTheme,
   getTheme,
   setTheme,
+  pickByProgress,
 } from './storage.js';
 import { renderQuestionStem, renderOptionContent } from './renderers.js';
 import {
@@ -261,11 +262,13 @@ function startSession({ reviewOnly = false } = {}) {
     alert(reviewOnly ? 'No flagged or wrong items yet.' : 'No items match these filters.');
     return;
   }
-  items = shuffle(items);
   clearAutoNext();
   if (mode === 'timed') {
     const cfg = timedConfig(type === 'mixed' ? 'me' : type);
-    items = items.slice(0, Math.min(cfg.limit, items.length));
+    const limit = Math.min(cfg.limit, items.length);
+    items = reviewOnly
+      ? shuffle(items).slice(0, limit)
+      : pickByProgress(items, progress, limit);
     session = {
       items,
       index: 0,
@@ -279,7 +282,7 @@ function startSession({ reviewOnly = false } = {}) {
     };
   } else {
     const limit = mode === 'quick' ? Math.min(10, items.length) : items.length;
-    items = items.slice(0, limit);
+    items = reviewOnly ? shuffle(items).slice(0, limit) : pickByProgress(items, progress, limit);
     session = {
       items,
       index: 0,

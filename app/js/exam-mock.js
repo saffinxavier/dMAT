@@ -7,16 +7,7 @@ import {
   gradeFsAnswer,
   gradeLsAnswer,
 } from './widgets.js';
-import { loadProgress, saveProgress, recordAttempt } from './storage.js';
-
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
+import { loadProgress, saveProgress, recordAttempt, pickByProgress } from './storage.js';
 
 function formatTime(sec) {
   const m = Math.floor(Math.max(0, sec) / 60);
@@ -55,9 +46,8 @@ export function startExamMock({ bank, root, onExit }) {
   }
 
   function pickItems(type, limit) {
-    let pool = bank.filter((q) => q.type === type);
-    pool = shuffle(pool);
-    return pool.slice(0, Math.min(limit, pool.length));
+    const pool = bank.filter((q) => q.type === type);
+    return pickByProgress(pool, loadProgress(), Math.min(limit, pool.length));
   }
 
   function beginPhase(i) {
