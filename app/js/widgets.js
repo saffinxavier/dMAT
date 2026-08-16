@@ -5,12 +5,23 @@ function framesEqual(a, b) {
 }
 
 /** ME on-screen keypad 1–20 */
-export function mountKeypad(container, { value, onChange, disabled }) {
+export function mountKeypad(container, { value, onChange, disabled, result }) {
   container.innerHTML = '';
+  const top = document.createElement('div');
+  top.className = 'keypad-top';
+
   const display = document.createElement('div');
   display.className = 'keypad-display';
+  if (result === 'ok') display.classList.add('ok');
+  if (result === 'bad') display.classList.add('bad');
   display.textContent = value == null || value === '' ? '—' : String(value);
-  container.appendChild(display);
+  top.appendChild(display);
+
+  const inlineFb = document.createElement('div');
+  inlineFb.className = 'feedback hidden';
+  inlineFb.setAttribute('data-inline-fb', '');
+  top.appendChild(inlineFb);
+  container.appendChild(top);
 
   const pad = document.createElement('div');
   pad.className = 'keypad';
@@ -33,7 +44,7 @@ export function mountKeypad(container, { value, onChange, disabled }) {
 }
 
 /** LS: clickable ? cell + A–E picker */
-export function mountLatinPicker(container, q, { value, onChange, disabled }) {
+export function mountLatinPicker(container, q, { value, onChange, disabled, result }) {
   container.innerHTML = '';
   const gridCopy = q.grid.map((row) => row.slice());
   // show chosen letter in ? if set
@@ -51,18 +62,24 @@ export function mountLatinPicker(container, q, { value, onChange, disabled }) {
     const c = i % 5;
     if (q.grid[r][c] === '?' || (value && gridCopy[r][c] === value.toUpperCase() && q.grid[r][c] === '?')) {
       cell.classList.add('q', 'clickable');
+      if (result === 'ok') cell.classList.add('ok');
+      if (result === 'bad') cell.classList.add('bad');
     }
   });
   container.appendChild(gridEl);
 
   const picker = document.createElement('div');
   picker.className = 'letter-picker';
+  const correct = String(q.answer || '').toLowerCase();
   for (const L of ['A', 'B', 'C', 'D', 'E']) {
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.textContent = L;
     btn.disabled = !!disabled;
-    if (value && value.toLowerCase() === L.toLowerCase()) btn.classList.add('primary');
+    const isSel = value && value.toLowerCase() === L.toLowerCase();
+    if (isSel) btn.classList.add('primary');
+    if (result && isSel) btn.classList.add(result === 'ok' ? 'ok' : 'bad');
+    if (result === 'bad' && L.toLowerCase() === correct) btn.classList.add('ok');
     btn.addEventListener('click', () => onChange(L.toLowerCase()));
     picker.appendChild(btn);
   }
@@ -70,17 +87,21 @@ export function mountLatinPicker(container, q, { value, onChange, disabled }) {
 }
 
 /** FS dual: pick 5th and optionally 6th from pool */
-export function mountDualFs(container, q, { fifth, sixth, onChange, disabled }) {
+export function mountDualFs(container, q, { fifth, sixth, onChange, disabled, showResult }) {
   container.innerHTML = '';
   const hasSixth = !!(q.answerFrames && q.answerFrames.sixth);
   const pool = q.optionFrames || (q.options || []).map((o) => o.frame).filter(Boolean);
+  const ans = q.answerFrames || {};
 
   const slots = document.createElement('div');
   slots.className = 'dual-slots';
 
-  function slot(label, frame) {
+  function slot(label, frame, mark) {
     const d = document.createElement('div');
-    d.className = 'dual-slot' + (frame ? ' filled' : '');
+    let cls = 'dual-slot' + (frame ? ' filled' : '');
+    if (mark === 'ok') cls += ' ok';
+    if (mark === 'bad') cls += ' bad';
+    d.className = cls;
     const lab = document.createElement('div');
     lab.className = 'fs-label';
     lab.textContent = label;
@@ -95,15 +116,26 @@ export function mountDualFs(container, q, { fifth, sixth, onChange, disabled }) 
     return d;
   }
 
-  slots.appendChild(slot('5th matrix', fifth));
-  if (hasSixth) slots.appendChild(slot('6th matrix', sixth));
+  const fifthMark =
+    showResult && fifth ? (framesEqual(fifth, ans.fifth) ? 'ok' : 'bad') : null;
+  const sixthMark =
+    showResult && hasSixth && sixth
+      ? framesEqual(sixth, ans.sixth)
+        ? 'ok'
+        : 'bad'
+      : null;
+
+  slots.appendChild(slot('5th matrix', fifth, fifthMark));
+  if (hasSixth) slots.appendChild(slot('6th matrix', sixth, sixthMark));
   container.appendChild(slots);
 
   const hint = document.createElement('p');
   hint.className = 'note';
-  hint.textContent = hasSixth
-    ? 'Click a frame below to fill the next empty slot (5th then 6th).'
-    : 'Click a frame below for the 5th matrix.';
+  hint.textContent = showResult
+    ? 'Green = correct answer. Red = your wrong pick.'
+    : hasSixth
+      ? 'Click a frame below to fill the next empty slot (5th then 6th).'
+      : 'Click a frame below for the 5th matrix.';
   container.appendChild(hint);
 
   const poolEl = document.createElement('div');
@@ -111,16 +143,32 @@ export function mountDualFs(container, q, { fifth, sixth, onChange, disabled }) 
   pool.forEach((frame, idx) => {
     const box = document.createElement('div');
     box.className = 'fs-matrix';
-    if (
-      (fifth && framesEqual(fifth, frame)) ||
-      (sixth && framesEqual(sixth, frame))
-    ) {
-      box.classList.add('picked');
+    const isFifthAns = !!(ans.fifth && framesEqual(frame, ans.fifth));
+    const isSixthAns = !!(ans.sixth && framesEqual(frame, ans.sixth));
+    const isPickedFifth = !!(fifth && framesEqual(fifth, frame));
+    const isPickedSixth = !!(sixth && framesEqual(sixth, frame));
+    if (isPickedFifth || isPickedSixth) box.classList.add('picked');
+
+    let tag = String.fromCharCode(65 + idx);
+    if (showResult) {
+      if (isFifthAns) {
+        box.classList.add('ok');
+        tag = hasSixth ? 'Correct 5th' : 'Correct';
+      } else if (isSixthAns) {
+        box.classList.add('ok');
+        tag = 'Correct 6th';
+      } else if (
+        (isPickedFifth && !isFifthAns) ||
+        (isPickedSixth && !isSixthAns)
+      ) {
+        box.classList.add('bad');
+        tag = 'Your pick';
+      }
     }
     box.appendChild(renderMatrix(frame, 88));
     const lab = document.createElement('div');
     lab.className = 'fs-label';
-    lab.textContent = String.fromCharCode(65 + idx);
+    lab.textContent = tag;
     box.appendChild(lab);
     if (!disabled) {
       box.addEventListener('click', () => {

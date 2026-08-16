@@ -143,16 +143,16 @@ function serializeAns(ans) {
   return typeof ans === 'object' && ans !== null ? JSON.stringify(ans) : String(ans ?? '');
 }
 
-function showSolution(q, correct) {
-  els.feedback.classList.remove('hidden');
-  els.feedback.className = `feedback ${correct ? 'ok' : 'bad'}`;
+function showSolution(q, correct, target = els.feedback) {
+  target.classList.remove('hidden');
+  target.className = `feedback ${correct ? 'ok' : 'bad'}`;
   let head = correct ? 'Correct. ' : 'Incorrect. ';
   if (!correct) {
     if (isNumericMe(q)) head += `Answer ${q.answerValue}. `;
-    else if (isDualFs(q)) head += 'See explanation (dual frames). ';
+    else if (isDualFs(q)) head += 'Correct frames marked below. ';
     else head += `Answer ${String(q.answer).toUpperCase()}. `;
   }
-  els.feedback.textContent = head + (q.explanation || '');
+  target.textContent = head + (q.explanation || '');
 }
 
 function renderStats() {
@@ -284,6 +284,7 @@ function renderQuestion() {
   const useKeypad = isNumericMe(q);
   const useDual = isDualFs(q);
   const useLs = isWidgetLs(q);
+  const gradeResult = locked ? (gradeAnswer(q, selected) ? 'ok' : 'bad') : null;
 
   els.stem.innerHTML = '';
   els.stem.appendChild(
@@ -303,12 +304,14 @@ function renderQuestion() {
       value: selected,
       onChange: setPracticeAnswer,
       disabled: locked,
+      result: gradeResult,
     });
   } else if (useLs) {
     mountLatinPicker(els.widgetMount, q, {
       value: selected,
       onChange: setPracticeAnswer,
       disabled: locked,
+      result: gradeResult,
     });
   } else if (useDual) {
     mountDualFs(els.widgetMount, q, {
@@ -316,6 +319,7 @@ function renderQuestion() {
       sixth: selected?.sixth || null,
       onChange: setPracticeAnswer,
       disabled: locked,
+      showResult: locked,
     });
   } else {
     for (const opt of q.options || []) {
@@ -340,7 +344,14 @@ function renderQuestion() {
   }
 
   if (locked) {
-    showSolution(q, gradeAnswer(q, selected));
+    if (useKeypad) {
+      els.feedback.className = 'feedback hidden';
+      els.feedback.textContent = '';
+      const inline = els.widgetMount.querySelector('[data-inline-fb]');
+      if (inline) showSolution(q, gradeResult === 'ok', inline);
+    } else {
+      showSolution(q, gradeResult === 'ok');
+    }
   }
 
   els.flagBtn.textContent = progress.flags[q.id] ? 'Unflag' : 'Flag';
