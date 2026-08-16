@@ -73,6 +73,46 @@ header.app-header {
   margin-bottom: 1.25rem;
 }
 
+.header-brand {
+  width: 100%;
+  min-width: 0;
+}
+
+.header-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.header-title-row h1 {
+  margin: 0;
+}
+
+.header-bank {
+  margin: 0.35rem 0 0;
+}
+
+.theme-toggle {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  line-height: 0;
+}
+
+.theme-toggle .theme-icon {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle .theme-icon-sun,
+[data-theme="light"] .theme-toggle .theme-icon-moon {
+  display: block;
+}
+
 h1 {
   margin: 0 0 0.25rem;
   font-size: 1.75rem;
@@ -103,7 +143,21 @@ h1 {
 
 @media (max-width: 800px) {
   .grid-2 { grid-template-columns: 1fr; }
-  header.app-header { flex-direction: column; }
+}
+
+@media (max-width: 640px) {
+  body:not(.exam-shell) header.app-header {
+    margin-bottom: 0.85rem;
+  }
+
+  body:not(.exam-shell) .sub {
+    display: none; /* title + toggle row only — saves the empty stack */
+  }
+
+  body:not(.exam-shell) .header-bank {
+    margin-top: 0.25rem;
+    font-size: 0.8rem;
+  }
 }
 
 label {
@@ -355,10 +409,14 @@ button:disabled {
 
 .nav-row {
   display: flex;
-  justify-content: space-between;
-  gap: 0.6rem;
+  align-items: center;
+  gap: 0.5rem;
   flex-wrap: wrap;
   margin-top: 1rem;
+}
+
+.nav-row #nextBtn {
+  margin-left: auto;
 }
 
 .note {
@@ -424,11 +482,67 @@ footer {
   margin-top: 1rem;
   border-top: 1px solid var(--line);
   padding-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  min-width: 0;
 }
 
 .scratch-wrap h3 {
-  margin: 0 0 0.4rem;
+  margin: 0;
   font-size: 0.95rem;
+}
+
+.scratch-wrap textarea {
+  width: 100%;
+  min-height: 6rem;
+  flex: 1;
+}
+
+.scratch-wrap #scratchClear {
+  align-self: flex-start;
+}
+
+/* Desktop: question | sticky scratch; nav spans full width under both */
+@media (min-width: 641px) {
+  #quizView .quiz-layout {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-areas:
+      "main scratch"
+      "nav nav";
+    gap: 1rem;
+    align-items: start;
+  }
+
+  #quizView .quiz-main {
+    grid-area: main;
+    min-width: 0;
+  }
+
+  #quizView .scratch-wrap {
+    grid-area: scratch;
+    margin-top: 0;
+    border-top: none;
+    padding: 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--stat-bg);
+    position: sticky;
+    top: 0.75rem;
+    max-height: calc(100vh - 1.5rem);
+    align-self: start;
+  }
+
+  #quizView .scratch-wrap textarea {
+    min-height: 14rem;
+    resize: vertical;
+  }
+
+  #quizView .nav-row {
+    grid-area: nav;
+    margin-top: 0;
+  }
 }
 
 /* Keypad + dual FS */
@@ -1119,10 +1233,6 @@ body.exam-shell #aboutView {
     font-size: 1.35rem;
   }
 
-  body:not(.exam-shell) .sub {
-    font-size: 0.85rem;
-  }
-
   body:not(.exam-shell) .panel {
     padding: 0.9rem 0.95rem;
   }
@@ -1159,20 +1269,53 @@ body.exam-shell #aboutView {
   }
 
   body:not(.exam-shell) .nav-row {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4rem;
     align-items: stretch;
   }
 
-  body:not(.exam-shell) .nav-row .controls {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
+  body:not(.exam-shell) .nav-row #nextBtn {
+    margin-left: 0;
   }
 
-  body:not(.exam-shell) .nav-row .controls button {
+  body:not(.exam-shell) .nav-row button {
     min-height: 44px;
     border-radius: 12px;
     width: 100%;
+    padding: 0.55rem 0.35rem;
+    font-size: 0.82rem;
+  }
+
+  /* Reveal sits in flow when visible — span full width under the row */
+  body:not(.exam-shell) .nav-row #revealBtn:not(.hidden) {
+    grid-column: 1 / -1;
+  }
+
+  body:not(.exam-shell) #quizView .quiz-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "main"
+      "nav"
+      "scratch";
+    gap: 0.75rem;
+  }
+
+  body:not(.exam-shell) #quizView .quiz-main {
+    grid-area: main;
+  }
+
+  body:not(.exam-shell) #quizView .nav-row {
+    grid-area: nav;
+    margin-top: 0;
+  }
+
+  body:not(.exam-shell) #quizView .scratch-wrap {
+    grid-area: scratch;
+    margin-top: 0;
+    border-top: 1px solid var(--line);
+    padding-top: 0.8rem;
   }
 
   body:not(.exam-shell) .option {
@@ -1226,6 +1369,7 @@ body.exam-shell #aboutView {
 
   body:not(.exam-shell) .scratch-wrap textarea {
     width: 100%;
+    min-height: 7rem;
   }
 
   body:not(.exam-shell) .code-grid {

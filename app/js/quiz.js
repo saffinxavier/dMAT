@@ -71,7 +71,9 @@ let session = null;
 let timerId = null;
 
 function syncThemeBtn() {
-  els.themeBtn.textContent = `Theme: ${getTheme() === 'light' ? 'Light' : 'Dark'}`;
+  const light = getTheme() === 'light';
+  els.themeBtn.setAttribute('aria-label', light ? 'Switch to dark theme' : 'Switch to light theme');
+  els.themeBtn.title = light ? 'Dark mode' : 'Light mode';
 }
 syncThemeBtn();
 

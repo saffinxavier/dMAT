@@ -9,13 +9,21 @@
 <body>
   <div class="app">
     <header class="app-header">
-      <div>
-        <h1>dMAT Prep</h1>
-        <p class="sub">Dark practice UI + light Exam Mock (test-centre style). Original items — not past papers.</p>
-      </div>
-      <div style="text-align:right">
-        <p class="note" id="bankCount">Loading bank…</p>
-        <button type="button" id="themeBtn" style="margin-top:0.4rem">Theme: Dark</button>
+      <div class="header-brand">
+        <div class="header-title-row">
+          <h1>dMAT Prep</h1>
+          <button type="button" id="themeBtn" class="theme-toggle" aria-label="Switch theme" title="Toggle theme">
+            <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" fill="currentColor"/>
+              <path fill="currentColor" d="M12 1.5a1 1 0 0 1 1 1V4a1 1 0 1 1-2 0V2.5a1 1 0 0 1 1-1zm0 16a1 1 0 0 1 1 1v1.5a1 1 0 1 1-2 0V18.5a1 1 0 0 1 1-1zM4.22 4.22a1 1 0 0 1 1.42 0L6.7 5.3A1 1 0 1 1 5.3 6.7L4.22 5.64a1 1 0 0 1 0-1.42zm12.66 12.66a1 1 0 0 1 1.42 0l1.06 1.06a1 1 0 1 1-1.42 1.42L16.88 18.3a1 1 0 0 1 0-1.42zM1.5 12a1 1 0 0 1 1-1H4a1 1 0 1 1 0 2H2.5a1 1 0 0 1-1-1zm16 0a1 1 0 0 1 1-1H20a1 1 0 1 1 0 2h-1.5a1 1 0 0 1-1-1zM4.22 19.78a1 1 0 0 1 0-1.42L5.3 17.3A1 1 0 1 1 6.7 18.7l-1.06 1.08a1 1 0 0 1-1.42 0zm12.66-12.66a1 1 0 0 1 0-1.42L17.94 4.64a1 1 0 1 1 1.42 1.42L18.3 7.12a1 1 0 0 1-1.42 0z"/>
+            </svg>
+            <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+              <path fill="currentColor" d="M20.2 14.1A8.5 8.5 0 0 1 9.9 3.8a7 7 0 1 0 10.3 10.3z"/>
+            </svg>
+          </button>
+        </div>
+        <p class="sub">Practice + Exam Mock. Original items — not past papers.</p>
+        <p class="note header-bank" id="bankCount">Loading bank…</p>
       </div>
     </header>
 
@@ -75,24 +83,24 @@
         <div id="qMeta"></div>
         <div class="timer" id="timer">Untimed</div>
       </div>
-      <div id="stem"></div>
-      <p class="prompt" id="prompt"></p>
-      <div id="widgetMount"></div>
-      <div class="options" id="options"></div>
-      <div id="feedback" class="feedback hidden"></div>
-      <div class="scratch-wrap" id="scratchWrap">
-        <h3>Scratch pad <span class="note">(practice only — disabled in Exam Mock / real dMAT)</span></h3>
-        <textarea id="scratchPad" placeholder="A=3  B=6  row2 missing C…"></textarea>
-        <button type="button" id="scratchClear">Clear pad</button>
-      </div>
-      <div class="nav-row">
-        <div class="controls">
+      <div class="quiz-layout">
+        <div class="quiz-main">
+          <div id="stem"></div>
+          <p class="prompt" id="prompt"></p>
+          <div id="widgetMount"></div>
+          <div class="options" id="options"></div>
+          <div id="feedback" class="feedback hidden"></div>
+        </div>
+        <aside class="scratch-wrap" id="scratchWrap">
+          <h3>Scratch pad <span class="note scratch-note">(practice only)</span></h3>
+          <textarea id="scratchPad" placeholder="A=3  B=6  row2 missing C…"></textarea>
+          <button type="button" id="scratchClear">Clear pad</button>
+        </aside>
+        <div class="nav-row">
           <button id="flagBtn" type="button">Flag</button>
           <button id="checkBtn" type="button">Check</button>
-          <button id="revealBtn" type="button" class="hidden">Reveal solution</button>
-        </div>
-        <div class="controls">
-          <button id="quitBtn" type="button">End session</button>
+          <button id="revealBtn" type="button" class="hidden">Reveal</button>
+          <button id="quitBtn" type="button">End</button>
           <button class="primary" id="nextBtn" type="button">Next</button>
         </div>
       </div>
