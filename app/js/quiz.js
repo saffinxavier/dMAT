@@ -69,6 +69,9 @@ let bank = [];
 let progress = loadProgress();
 let session = null;
 let timerId = null;
+/** @type {ReturnType<typeof setInterval> | null} */
+let autoNextTimer = null;
+let autoNextLeft = 0;
 
 function syncThemeBtn() {
   const light = getTheme() === 'light';
@@ -193,6 +196,45 @@ function stopTimer() {
   timerId = null;
 }
 
+function clearAutoNext() {
+  if (autoNextTimer) clearInterval(autoNextTimer);
+  autoNextTimer = null;
+  autoNextLeft = 0;
+}
+
+function goNextQuestion() {
+  clearAutoNext();
+  if (!session) return;
+  if (session.index >= session.items.length - 1) {
+    finishSession();
+    return;
+  }
+  session.index += 1;
+  renderQuestion();
+}
+
+function startAutoNext() {
+  clearAutoNext();
+  if (!session?.immediate) return;
+  autoNextLeft = 3;
+  const syncLabel = () => {
+    if (!session) return;
+    const n = session.index + 1;
+    const total = session.items.length;
+    const base = n === total ? 'Finish' : 'Next';
+    els.nextBtn.textContent = `${base} (${autoNextLeft})`;
+  };
+  syncLabel();
+  autoNextTimer = setInterval(() => {
+    autoNextLeft -= 1;
+    if (autoNextLeft <= 0) {
+      goNextQuestion();
+      return;
+    }
+    syncLabel();
+  }, 1000);
+}
+
 function startTimer() {
   stopTimer();
   if (!session.timed) {
@@ -220,6 +262,7 @@ function startSession({ reviewOnly = false } = {}) {
     return;
   }
   items = shuffle(items);
+  clearAutoNext();
   if (mode === 'timed') {
     const cfg = timedConfig(type === 'mixed' ? 'me' : type);
     items = items.slice(0, Math.min(cfg.limit, items.length));
@@ -365,6 +408,10 @@ function renderQuestion() {
     els.revealBtn.classList.toggle('hidden', !canReveal);
   }
   els.nextBtn.textContent = n === total ? 'Finish' : 'Next';
+  if (autoNextTimer && autoNextLeft > 0) {
+    const base = n === total ? 'Finish' : 'Next';
+    els.nextBtn.textContent = `${base} (${autoNextLeft})`;
+  }
 }
 
 function gradeCurrent(showFb) {
@@ -383,8 +430,8 @@ function gradeCurrent(showFb) {
   recordAttempt(progress, q.id, serializeAns(ans), correct, q.type);
   progress = loadProgress();
   if (showFb) {
-    showSolution(q, correct);
     renderQuestion();
+    if (correct) startAutoNext();
   }
   return true;
 }
@@ -408,6 +455,7 @@ function revealSolution() {
 }
 
 function finishSession(note = '') {
+  clearAutoNext();
   stopTimer();
   let correct = 0;
   for (const q of session.items) {
@@ -508,6 +556,10 @@ els.flagBtn.addEventListener('click', () => {
 els.checkBtn.addEventListener('click', () => gradeCurrent(true));
 els.revealBtn.addEventListener('click', () => revealSolution());
 els.nextBtn.addEventListener('click', () => {
+  if (autoNextTimer) {
+    goNextQuestion();
+    return;
+  }
   const q = currentQ();
   const ans = session.answers[q.id];
   if (ans == null || ans === '') {
@@ -521,17 +573,13 @@ els.nextBtn.addEventListener('click', () => {
     recordAttempt(progress, q.id, serializeAns(ans), ok, q.type);
     progress = loadProgress();
   }
-  if (session.index >= session.items.length - 1) {
-    finishSession();
-    return;
-  }
-  session.index += 1;
-  renderQuestion();
+  goNextQuestion();
 });
 els.quitBtn.addEventListener('click', () => {
   if (confirm('End this session and score answered items?')) finishSession('Session ended early.');
 });
 els.backHub.addEventListener('click', () => {
+  clearAutoNext();
   stopTimer();
   show('hub');
   renderStats();
