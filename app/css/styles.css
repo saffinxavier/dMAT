@@ -81,20 +81,28 @@ header.app-header {
 .header-title-row {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
+  gap: 0.65rem;
 }
 
 .header-title-row h1 {
   margin: 0;
+  flex-shrink: 0;
 }
 
 .header-bank {
-  margin: 0.35rem 0 0;
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.8rem;
 }
 
 .theme-toggle {
   flex-shrink: 0;
+  margin-left: auto;
   width: 2.5rem;
   height: 2.5rem;
   padding: 0;
@@ -151,12 +159,11 @@ h1 {
   }
 
   body:not(.exam-shell) .sub {
-    display: none; /* title + toggle row only — saves the empty stack */
+    display: none;
   }
 
   body:not(.exam-shell) .header-bank {
-    margin-top: 0.25rem;
-    font-size: 0.8rem;
+    font-size: 0.72rem;
   }
 }
 
@@ -250,9 +257,15 @@ button:disabled {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 0.9rem;
   flex-wrap: wrap;
+}
+
+.quiz-top #timer {
+  margin-left: auto;
+  flex-shrink: 0;
+  text-align: right;
 }
 
 .badge {
@@ -1263,9 +1276,20 @@ body.exam-shell #aboutView {
   }
 
   body:not(.exam-shell) .quiz-top {
-    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: flex-start;
-    gap: 0.4rem;
+    gap: 0.5rem;
+    margin-bottom: 0.65rem;
+  }
+
+  body:not(.exam-shell) .quiz-top #qMeta {
+    flex: 1;
+    min-width: 0;
+    font-size: 0.85rem;
+  }
+
+  body:not(.exam-shell) .quiz-top #timer {
+    margin-left: 0;
   }
 
   body:not(.exam-shell) .nav-row {
@@ -1297,18 +1321,13 @@ body.exam-shell #aboutView {
     grid-template-columns: 1fr;
     grid-template-areas:
       "main"
-      "nav"
       "scratch";
     gap: 0.75rem;
+    padding-bottom: calc(4.25rem + env(safe-area-inset-bottom, 0px));
   }
 
   body:not(.exam-shell) #quizView .quiz-main {
     grid-area: main;
-  }
-
-  body:not(.exam-shell) #quizView .nav-row {
-    grid-area: nav;
-    margin-top: 0;
   }
 
   body:not(.exam-shell) #quizView .scratch-wrap {
@@ -1316,6 +1335,22 @@ body.exam-shell #aboutView {
     margin-top: 0;
     border-top: 1px solid var(--line);
     padding-top: 0.8rem;
+  }
+
+  /* Always-visible action bar on phones */
+  body:not(.exam-shell) #quizView .nav-row {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    grid-area: unset;
+    margin: 0;
+    padding: 0.55rem max(0.85rem, env(safe-area-inset-right))
+      max(0.55rem, env(safe-area-inset-bottom)) max(0.85rem, env(safe-area-inset-left));
+    background: var(--card);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.25);
   }
 
   body:not(.exam-shell) .option {
