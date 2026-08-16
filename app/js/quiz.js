@@ -529,9 +529,8 @@ els.backHub.addEventListener('click', () => {
 loadBank()
   .then(() => {
     renderStats();
-    document.getElementById('bankCount').textContent = `${bank.length} items loaded`;
   })
   .catch((err) => {
-    document.getElementById('bankCount').textContent = String(err.message);
-    document.getElementById('bankCount').style.color = 'var(--bad)';
+    console.error(err);
+    alert(`Failed to load question bank: ${err.message}`);
   });

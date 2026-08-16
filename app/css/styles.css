@@ -89,17 +89,6 @@ header.app-header {
   flex-shrink: 0;
 }
 
-.header-bank {
-  margin: 0;
-  flex: 1;
-  min-width: 0;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 0.8rem;
-}
-
 .theme-toggle {
   flex-shrink: 0;
   margin-left: auto;
@@ -160,10 +149,6 @@ h1 {
 
   body:not(.exam-shell) .sub {
     display: none;
-  }
-
-  body:not(.exam-shell) .header-bank {
-    font-size: 0.72rem;
   }
 }
 
@@ -1293,8 +1278,8 @@ body.exam-shell #aboutView {
   }
 
   body:not(.exam-shell) .nav-row {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     gap: 0.4rem;
     align-items: stretch;
   }
@@ -1304,16 +1289,18 @@ body.exam-shell #aboutView {
   }
 
   body:not(.exam-shell) .nav-row button {
+    flex: 1 1 0;
+    min-width: 0;
     min-height: 44px;
     border-radius: 12px;
-    width: 100%;
+    width: auto;
     padding: 0.55rem 0.35rem;
     font-size: 0.82rem;
   }
 
-  /* Reveal sits in flow when visible — span full width under the row */
+  /* Reveal: full-width row under the action buttons */
   body:not(.exam-shell) .nav-row #revealBtn:not(.hidden) {
-    grid-column: 1 / -1;
+    flex: 1 1 100%;
   }
 
   body:not(.exam-shell) #quizView .quiz-layout {
